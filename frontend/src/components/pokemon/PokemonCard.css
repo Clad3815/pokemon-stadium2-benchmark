@@ -1,0 +1,129 @@
+/* PokemonCard.css - Styles simplifiés pour les cartes Pokémon */
+
+/* Barre de santé */
+.health-bar {
+  width: 100%;
+  height: 5px;
+  background-color: rgba(30, 30, 30, 0.5);
+  border-radius: 2px;
+  overflow: hidden;
+  margin-top: 2px;
+}
+
+.health-bar-fill {
+  height: 100%;
+  transition: width 0.3s ease;
+}
+
+.health-bar-fill-high {
+  background-color: #48bb78;
+}
+
+.health-bar-fill-medium {
+  background-color: #ed8936;
+}
+
+.health-bar-fill-low {
+  background-color: #f56565;
+}
+
+/* Animation pour le changement de HP */
+@keyframes health-decrease {
+  0% { opacity: 1; }
+  50% { opacity: 0.7; }
+  100% { opacity: 1; }
+}
+
+/* Animation pulsation pour les états KO */
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.6; }
+}
+
+.animate-pulse {
+  animation: pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Styles pour les cartes Pokémon */
+.pokemon-card {
+  background-color: #111827;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Types de Pokémon */
+.pokemon-type {
+  font-size: 0.65rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 1rem;
+  color: white;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+/* Status de Pokémon */
+.status-badge {
+  font-size: 0.65rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 0.25rem;
+  color: white;
+  font-weight: 600;
+}
+
+.status-normal { background-color: #48bb78; }
+.status-asleep { background-color: #4299e1; }
+.status-poisoned { background-color: #9f7aea; }
+.status-burned { background-color: #ed8936; }
+.status-frozen { background-color: #0bc5ea; }
+.status-paralyzed { background-color: #ecc94b; }
+.status-badly-poisoned { background-color: #805ad5; }
+
+/* Styles spécifiques pour le composant Detailed */
+.pokemon-card.detailed {
+  max-width: 100%;
+  overflow: visible;
+}
+
+.pokemon-card.detailed .move-item {
+  transition: background-color 0.15s ease;
+}
+
+.pokemon-card.detailed .move-item:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* Adaptations pour petits écrans */
+@media (max-width: 640px) {
+  .pokemon-detail-image {
+    width: 3rem;
+    height: 3rem;
+  }
+  
+  .pokemon-compact-image {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  
+  .pokemon-card.detailed {
+    font-size: 0.9rem;
+  }
+  
+  .pokemon-card.detailed .stats-grid {
+    grid-template-columns: 1fr;
+  }
+} 
+
+/* Animation d'apparition pour les cartes - version simplifiée */
+@keyframes card-appear {
+  0% { opacity: 0; transform: translateY(5px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.pokemon-card {
+  animation: card-appear 0.2s ease-out forwards;
+} 

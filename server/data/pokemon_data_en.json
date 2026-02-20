@@ -1,0 +1,4383 @@
+{
+  "moves": {
+    "1": {
+      "id": 1,
+      "name": "VPOUND",
+      "description": "NORMAL-type attack Slightly stronger than TACKLE Many POKéMON know this move",
+      "type": null,
+      "category": null,
+      "power": null,
+      "accuracy": null,
+      "pp": null,
+      "effect": null
+    },
+    "2": {
+      "id": 2,
+      "name": "KARATE CHOP",
+      "description": "A FIGHTING-type attack Often turns into a critical hit and inflicts double the damage",
+      "type": "Fighting",
+      "category": "Physical",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 25,
+      "effect": "High critical hit ratio."
+    },
+    "3": {
+      "id": 3,
+      "name": "DOUBLESLAP",
+      "description": "Although each slap is weak, this attack hits the target two to five times in succession",
+      "type": "Normal",
+      "category": "Physical",
+      "power": 15,
+      "accuracy": 85,
+      "pp": 10,
+      "effect": "Hits 2-5 times in one turn."
+    },
+    "4": {
+      "id": 4,
+      "name": "COMET PUNCH",
+      "description": "Although each slap is weak, this attack hits the target two to five times in succession",
+      "type": "Normal",
+      "category": "Physical",
+      "power": 18,
+      "accuracy": 85,
+      "pp": 15,
+      "effect": "Hits 2-5 times in one turn."
+    },
+    "5": {
+      "id": 5,
+      "name": "MEGA PUNCH",
+      "description": "A NORMAL-type attack move It is highly accurate and relatively powerful",
+      "type": "Normal",
+      "category": "Physical",
+      "power": 80,
+      "accuracy": 85,
+      "pp": 20,
+      "effect": ""
+    },
+    "6": {
+      "id": 6,
+      "name": "PAY DAY",
+      "description": "A move that nets money at the end of battle How much depends on attack frequency and level",
+      "type": "Normal",
+      "category": "Physical",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 20,
+      "effect": "Money is earned after the battle."
+    },
+    "7": {
+      "id": 7,
+      "name": "FIRE PUNCH",
+      "description": "A special FIRE-type attack Has a one-in-ten chance of inflicting a burn on the target",
+      "type": "Fire",
+      "category": "Physical",
+      "power": 75,
+      "accuracy": 100,
+      "pp": 15,
+      "effect": "May burn opponent."
+    },
+    "8": {
+      "id": 8,
+      "name": "ICE PUNCH",
+      "description": "A special ICE-type attack Has a one-in-ten chance of freezing the target",
+      "type": "Ice",
+      "category": "Physical",
+      "power": 75,
+      "accuracy": 100,
+      "pp": 15,
+      "effect": "May freeze opponent."
+    },
+    "9": {
+      "id": 9,
+      "name": "THUNDERPUNCH",
+      "description": "A special ELECTRIC-type attack Has a one-in-ten shot at paralyzing the target",
+      "type": "Electric",
+      "category": "Physical",
+      "power": 75,
+      "accuracy": 100,
+      "pp": 15,
+      "effect": "May paralyze opponent."
+    },
+    "10": {
+      "id": 10,
+      "name": "SCRATCH",
+      "description": "A NORMAL-type attack Sharp claws are used to inflict damage on the target",
+      "type": "Normal",
+      "category": "Physical",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "effect": ""
+    },
+    "11": {
+      "id": 11,
+      "name": "VICEGRIP",
+      "description": "A NORMAL-type attack used only by POKéMON with pincers The target is gripped and injured",
+      "type": "Normal",
+      "category": "Physical",
+      "power": 55,
+      "accuracy": 100,
+      "pp": 30,
+      "effect": ""
+    },
+    "12": {
+      "id": 12,
+      "name": "GUILLOTINE",
+      "description": "A single-hit knockout attack Learned only by POKéMON that have large pincers",
+      "type": "Normal",
+      "category": "Physical",
+      "power": "—",
+      "accuracy": 30,
+      "pp": 5,
+      "effect": "One-Hit-KO, if it hits."
+    },
+    "13": {
+      "id": 13,
+      "name": "RAZOR WIND",
+      "description": "A two-turn attack with the wind attack in the second turn Learned by many FLYING types",
+      "type": "Normal",
+      "category": "Special",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 10,
+      "effect": "Charges on first turn, attacks on second. High critical hit ratio."
+    },
+    "14": {
+      "id": 14,
+      "name": "SWORDS DANCE",
+      "description": "A special move that boosts the user's ATTACK power Normally used up to three times",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 20,
+      "effect": "Sharply raises user's Attack."
+    },
+    "15": {
+      "id": 15,
+      "name": "CUT",
+      "description": "A NORMAL-type attack Also used for cutting small bushes to open new paths",
+      "type": "Normal",
+      "category": "Physical",
+      "power": 50,
+      "accuracy": 95,
+      "pp": 30,
+      "effect": ""
+    },
+    "16": {
+      "id": 16,
+      "name": "GUST",
+      "description": "A FLYING-type attack The bird POKéMON flaps its wings to create a powerful wind",
+      "type": "Flying",
+      "category": "Special",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "effect": "Hits Pokémon using Fly/Bounce/Sky Drop with double power."
+    },
+    "17": {
+      "id": 17,
+      "name": "WING ATTACK",
+      "description": "A FLYING-type attack The attacking  POKéMON spreads its wings and charges",
+      "type": "Flying",
+      "category": "Physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 35,
+      "effect": ""
+    },
+    "18": {
+      "id": 18,
+      "name": "WHIRLWIND",
+      "description": "A powerful wind that blows the target away The opposing trainer must use a new POKéMON",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 20,
+      "effect": "In battles, the opponent switches. In the wild, the Pokémon runs."
+    },
+    "19": {
+      "id": 19,
+      "name": "FLY",
+      "description": "The POKéMON flies high, then strikes in the next turn Used to fly to places already visited",
+      "type": "Flying",
+      "category": "Physical",
+      "power": 90,
+      "accuracy": 95,
+      "pp": 15,
+      "effect": "Flies up on first turn, attacks on second turn."
+    },
+    "20": {
+      "id": 20,
+      "name": "BIND",
+      "description": "Traps and squeezes the target over several turns The target cannot move while under attack",
+      "type": "Normal",
+      "category": "Physical",
+      "power": 15,
+      "accuracy": 85,
+      "pp": 20,
+      "effect": "Traps opponent, damaging them for 4-5 turns."
+    },
+    "21": {
+      "id": 21,
+      "name": "SLAM",
+      "description": "A NORMAL-type attack move The attacker uses an appendage to slam the target hard",
+      "type": "Normal",
+      "category": "Physical",
+      "power": 80,
+      "accuracy": 75,
+      "pp": 20,
+      "effect": ""
+    },
+    "22": {
+      "id": 22,
+      "name": "VINE WHIP",
+      "description": "A GRASS-type attack The POKéMON uses its cruel whips to strike the opponent",
+      "type": "Grass",
+      "category": "Physical",
+      "power": 45,
+      "accuracy": 100,
+      "pp": 25,
+      "effect": ""
+    },
+    "23": {
+      "id": 23,
+      "name": "STOMP",
+      "description": "A NORMAL-type attack Has a one-in-three chance of making the target flinch if it hits",
+      "type": "Normal",
+      "category": "Physical",
+      "power": 65,
+      "accuracy": 100,
+      "pp": 20,
+      "effect": "May cause flinching."
+    },
+    "24": {
+      "id": 24,
+      "name": "DOUBLE KICK",
+      "description": "A FIGHTING-type attack As the name implies, it is actually two quick kicks in succession",
+      "type": "Fighting",
+      "category": "Physical",
+      "power": 30,
+      "accuracy": 100,
+      "pp": 30,
+      "effect": "Hits twice in one turn."
+    },
+    "25": {
+      "id": 25,
+      "name": "MEGA KICK",
+      "description": "A NORMAL-type attack Out of all the POKéMON kicking attacks, this is the strongest",
+      "type": "Normal",
+      "category": "Physical",
+      "power": 120,
+      "accuracy": 75,
+      "pp": 5,
+      "effect": ""
+    },
+    "26": {
+      "id": 26,
+      "name": "JUMP KICK",
+      "description": "A forceful FIGHTING-type attack If it misses, however, the attacker gets hurt",
+      "type": "Fighting",
+      "category": "Physical",
+      "power": 100,
+      "accuracy": 95,
+      "pp": 10,
+      "effect": "If it misses, the user loses half their HP."
+    },
+    "27": {
+      "id": 27,
+      "name": "ROLLING KICK",
+      "description": "A sharp FIGHTING-type attack Has a one-in-three shot at making the target flinch",
+      "type": "Fighting",
+      "category": "Physical",
+      "power": 60,
+      "accuracy": 85,
+      "pp": 15,
+      "effect": "May cause flinching."
+    },
+    "28": {
+      "id": 28,
+      "name": "SAND-ATTACK",
+      "description": "An attack in which sand is used to blind the target and reduce its attack accuracy",
+      "type": "Ground",
+      "category": "Status",
+      "power": "—",
+      "accuracy": 100,
+      "pp": 15,
+      "effect": "Lowers opponent's Accuracy."
+    },
+    "29": {
+      "id": 29,
+      "name": "HEADBUTT",
+      "description": "A NORMAL-type attack Has a one-in-three chance of making the target flinch if it hits",
+      "type": "Normal",
+      "category": "Physical",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 15,
+      "effect": "May cause flinching."
+    },
+    "30": {
+      "id": 30,
+      "name": "HORN ATTACK",
+      "description": "A NORMAL-type attack A sharp horn is driven hard into the target to inflict damage",
+      "type": "Normal",
+      "category": "Physical",
+      "power": 65,
+      "accuracy": 100,
+      "pp": 25,
+      "effect": ""
+    },
+    "31": {
+      "id": 31,
+      "name": "FURY ATTACK",
+      "description": "A NORMAL-type attack The POKéMON rapidly jabs at its opponent several times",
+      "type": "Normal",
+      "category": "Physical",
+      "power": 15,
+      "accuracy": 85,
+      "pp": 20,
+      "effect": "Hits 2-5 times in one turn."
+    },
+    "32": {
+      "id": 32,
+      "name": "HORN DRILL",
+      "description": "A single-hit knockout attack Learned only by POKéMON with a horn or horns",
+      "type": "Normal",
+      "category": "Physical",
+      "power": "—",
+      "accuracy": 30,
+      "pp": 5,
+      "effect": "One-Hit-KO, if it hits."
+    },
+    "33": {
+      "id": 33,
+      "name": "TACKLE",
+      "description": "A NORMAL-type attack Many POKéMON know this attack right from the start",
+      "type": "Normal",
+      "category": "Physical",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "effect": ""
+    },
+    "34": {
+      "id": 34,
+      "name": "BODY SLAM",
+      "description": "A NORMAL-type attack Has a one-in-three chance of para- lyzing the target if it hits",
+      "type": "Normal",
+      "category": "Physical",
+      "power": 85,
+      "accuracy": 100,
+      "pp": 15,
+      "effect": "May paralyze opponent."
+    },
+    "35": {
+      "id": 35,
+      "name": "WRAP",
+      "description": "Traps and squeezes the target over two to five turns, making the target unable to move",
+      "type": "Normal",
+      "category": "Physical",
+      "power": 15,
+      "accuracy": 90,
+      "pp": 20,
+      "effect": "Traps opponent, damaging them for 4-5 turns."
+    },
+    "36": {
+      "id": 36,
+      "name": "TAKE DOWN",
+      "description": "A charging attack One quarter of the damage it inflicts comes back to hurt the attacker",
+      "type": "Normal",
+      "category": "Physical",
+      "power": 90,
+      "accuracy": 85,
+      "pp": 20,
+      "effect": "User receives recoil damage."
+    },
+    "37": {
+      "id": 37,
+      "name": "THRASH",
+      "description": "An attack that lasts two to three turns Afterwards, the attacker becomes confused",
+      "type": "Normal",
+      "category": "Physical",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 10,
+      "effect": "User attacks for 2-3 turns but then becomes confused."
+    },
+    "38": {
+      "id": 38,
+      "name": "DOUBLE-EDGE",
+      "description": "A charging tackle attack One quarter of the damage comes back to hurt the attacker",
+      "type": "Normal",
+      "category": "Physical",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 15,
+      "effect": "User receives recoil damage."
+    },
+    "39": {
+      "id": 39,
+      "name": "TAIL WHIP",
+      "description": "A move that lowers the target's DEFENSE Useful against tough, armored POKéMON",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": 100,
+      "pp": 30,
+      "effect": "Lowers opponent's Defense."
+    },
+    "40": {
+      "id": 40,
+      "name": "POISON STING",
+      "description": "A POISON-type attack Has a one-in-three chance of leaving the target poisoned",
+      "type": "Poison",
+      "category": "Physical",
+      "power": 15,
+      "accuracy": 100,
+      "pp": 35,
+      "effect": "May poison the opponent."
+    },
+    "41": {
+      "id": 41,
+      "name": "TWINEEDLE",
+      "description": "An attack that strikes twice The target may occasionally become poisoned",
+      "type": "Bug",
+      "category": "Physical",
+      "power": 25,
+      "accuracy": 100,
+      "pp": 20,
+      "effect": "Hits twice in one turn. May poison opponent."
+    },
+    "42": {
+      "id": 42,
+      "name": "PIN MISSILE",
+      "description": "An attack that fires many  needle-like projectiles from the body Strikes several times",
+      "type": "Bug",
+      "category": "Physical",
+      "power": 25,
+      "accuracy": 95,
+      "pp": 20,
+      "effect": "Hits 2-5 times in one turn."
+    },
+    "43": {
+      "id": 43,
+      "name": "LEER",
+      "description": "A move that lowers the target's DEFENSE Useful against tough, armored POKéMON",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": 100,
+      "pp": 30,
+      "effect": "Lowers opponent's Defense."
+    },
+    "44": {
+      "id": 44,
+      "name": "BITE",
+      "description": "A bite made using sharp fangs This may cause the opponent to flinch, and it might not attack",
+      "type": "Dark",
+      "category": "Physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 25,
+      "effect": "May cause flinching."
+    },
+    "45": {
+      "id": 45,
+      "name": "GROWL",
+      "description": "A move that lowers the target's ATTACK power Can normally be used up to six times",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": 100,
+      "pp": 40,
+      "effect": "Lowers opponent's Attack."
+    },
+    "46": {
+      "id": 46,
+      "name": "ROAR",
+      "description": "A terrifying roar that drives the target away The opposing  trainer must use a new POKéMON",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 20,
+      "effect": "In battles, the opponent switches. In the wild, the Pokémon runs."
+    },
+    "47": {
+      "id": 47,
+      "name": "SING",
+      "description": "A special NORMAL-type move A soothing melody lulls the target to sleep",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": 55,
+      "pp": 15,
+      "effect": "Puts opponent to sleep."
+    },
+    "48": {
+      "id": 48,
+      "name": "SUPERSONIC",
+      "description": "A special NORMAL-type move Supersonic sound waves are used to confuse the target",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": 55,
+      "pp": 20,
+      "effect": "Confuses opponent."
+    },
+    "49": {
+      "id": 49,
+      "name": "SONICBOOM",
+      "description": "A NORMAL-type attack It always inflicts a set amount of damage",
+      "type": "Normal",
+      "category": "Special",
+      "power": "—",
+      "accuracy": 90,
+      "pp": 20,
+      "effect": "Always inflicts 20 HP."
+    },
+    "50": {
+      "id": 50,
+      "name": "DISABLE",
+      "description": "A move that disables one of the target's moves That move can't be used until it wears off",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": 100,
+      "pp": 20,
+      "effect": "Opponent can't use its last attack for a few turns."
+    },
+    "51": {
+      "id": 51,
+      "name": "ACID",
+      "description": "A POISON-type attack Has a one-in-ten chance of lowering the target's DEFENSE",
+      "type": "Poison",
+      "category": "Special",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 30,
+      "effect": "May lower opponent's Special Defense."
+    },
+    "52": {
+      "id": 52,
+      "name": "EMBER",
+      "description": "A FIRE-type attack Has a one- in-ten chance of leaving the target with a damaging burn",
+      "type": "Fire",
+      "category": "Special",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 25,
+      "effect": "May burn opponent."
+    },
+    "53": {
+      "id": 53,
+      "name": "FLAMETHROWER",
+      "description": "A powerful FIRE-type attack Has a one-in-ten chance of leaving the target with a burn",
+      "type": "Fire",
+      "category": "Special",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 15,
+      "effect": "May burn opponent."
+    },
+    "54": {
+      "id": 54,
+      "name": "MIST",
+      "description": "Provides full protection against any enemy status attack",
+      "type": "Ice",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 30,
+      "effect": "User's stats cannot be changed for a period of time."
+    },
+    "55": {
+      "id": 55,
+      "name": "WATER GUN",
+      "description": "A WATER-type attack Stronger than BUBBLE Many WATER-type POKéMON learn this move",
+      "type": "Water",
+      "category": "Special",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 25,
+      "effect": ""
+    },
+    "56": {
+      "id": 56,
+      "name": "HYDRO PUMP",
+      "description": "The strongest WATER-type attack While it is powerful, it may miss the target",
+      "type": "Water",
+      "category": "Special",
+      "power": 110,
+      "accuracy": 80,
+      "pp": 5,
+      "effect": ""
+    },
+    "57": {
+      "id": 57,
+      "name": "SURF",
+      "description": "A WATER-type attack This move is strong and highly accurate",
+      "type": "Water",
+      "category": "Special",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 15,
+      "effect": "Hits all adjacent Pokémon."
+    },
+    "58": {
+      "id": 58,
+      "name": "ICE BEAM",
+      "description": "An ICE-type attack Has a one-in-ten chance of freezing the target solid",
+      "type": "Ice",
+      "category": "Special",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 10,
+      "effect": "May freeze opponent."
+    },
+    "59": {
+      "id": 59,
+      "name": "BLIZZARD",
+      "description": "The strongest ICE-type attack Has a one-in-ten chance of freezing the target",
+      "type": "Ice",
+      "category": "Special",
+      "power": 110,
+      "accuracy": 70,
+      "pp": 5,
+      "effect": "May freeze opponent."
+    },
+    "60": {
+      "id": 60,
+      "name": "PSYBEAM",
+      "description": "A PSYCHIC-type attack Has a one-in-ten chance of making the target confused",
+      "type": "Psychic",
+      "category": "Special",
+      "power": 65,
+      "accuracy": 100,
+      "pp": 20,
+      "effect": "May confuse opponent."
+    },
+    "61": {
+      "id": 61,
+      "name": "BUBBLEBEAM",
+      "description": "A WATER-type attack Has a one-in-ten chance of reducing the target's SPEED",
+      "type": "Water",
+      "category": "Special",
+      "power": 65,
+      "accuracy": 100,
+      "pp": 20,
+      "effect": "May lower opponent's Speed."
+    },
+    "62": {
+      "id": 62,
+      "name": "AURORA BEAM",
+      "description": "An ICE-type attack Has a  one-in-ten chance of reducing the target's ATTACK power",
+      "type": "Ice",
+      "category": "Special",
+      "power": 65,
+      "accuracy": 100,
+      "pp": 20,
+      "effect": "May lower opponent's Attack."
+    },
+    "63": {
+      "id": 63,
+      "name": "HYPER BEAM",
+      "description": "An extremely powerful attack The attacker becomes so tired, it has to rest the next turn",
+      "type": "Normal",
+      "category": "Special",
+      "power": 150,
+      "accuracy": 90,
+      "pp": 5,
+      "effect": "User must recharge next turn."
+    },
+    "64": {
+      "id": 64,
+      "name": "PECK",
+      "description": "A standard FLYING-type attack It is favored by POKéMON with beaks or horns",
+      "type": "Flying",
+      "category": "Physical",
+      "power": 35,
+      "accuracy": 100,
+      "pp": 35,
+      "effect": ""
+    },
+    "65": {
+      "id": 65,
+      "name": "DRILL PECK",
+      "description": "A standard FLYING-type attack It is strong and highly likely to hit the target",
+      "type": "Flying",
+      "category": "Physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 20,
+      "effect": ""
+    },
+    "66": {
+      "id": 66,
+      "name": "SUBMISSION",
+      "description": "Strongest FIGHTING attack One quarter of the damage also hurts the attacker",
+      "type": "Fighting",
+      "category": "Physical",
+      "power": 80,
+      "accuracy": 80,
+      "pp": 20,
+      "effect": "User receives recoil damage."
+    },
+    "67": {
+      "id": 67,
+      "name": "LOW KICK",
+      "description": "A FIGHTING-type attack Has a one-in-three chance of making the target flinch if it hits",
+      "type": "Fighting",
+      "category": "Physical",
+      "power": "—",
+      "accuracy": 100,
+      "pp": 20,
+      "effect": "The heavier the opponent, the stronger the attack."
+    },
+    "68": {
+      "id": 68,
+      "name": "COUNTER",
+      "description": "A retaliation move that pays back double the damage of a physical attack Very accurate",
+      "type": "Fighting",
+      "category": "Physical",
+      "power": "—",
+      "accuracy": 100,
+      "pp": 20,
+      "effect": "When hit by a Physical Attack, user strikes back with 2x power."
+    },
+    "69": {
+      "id": 69,
+      "name": "SEISMIC TOSS",
+      "description": "A FIGHTING-type attack Throws the target with enough force to flip the world",
+      "type": "Fighting",
+      "category": "Physical",
+      "power": "—",
+      "accuracy": 100,
+      "pp": 20,
+      "effect": "Inflicts damage equal to user's level."
+    },
+    "70": {
+      "id": 70,
+      "name": "STRENGTH",
+      "description": "A very powerful NORMAL-type attack Also used for moving obstacles like boulders",
+      "type": "Normal",
+      "category": "Physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 15,
+      "effect": ""
+    },
+    "71": {
+      "id": 71,
+      "name": "ABSORB",
+      "description": "A GRASS-type attack It adds half the HP it drained from the target to the attacker's HP",
+      "type": "Grass",
+      "category": "Special",
+      "power": 20,
+      "accuracy": 100,
+      "pp": 25,
+      "effect": "User recovers half the HP inflicted on opponent."
+    },
+    "72": {
+      "id": 72,
+      "name": "MEGA DRAIN",
+      "description": "A GRASS-type attack It adds half the HP it drained from the target to the attacker's HP",
+      "type": "Grass",
+      "category": "Special",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 15,
+      "effect": "User recovers half the HP inflicted on opponent."
+    },
+    "73": {
+      "id": 73,
+      "name": "LEECH SEED",
+      "description": "Plants a seed on the target POKéMON It slowly drains the target's HP for the attacker",
+      "type": "Grass",
+      "category": "Status",
+      "power": "—",
+      "accuracy": 90,
+      "pp": 10,
+      "effect": "Drains HP from opponent each turn."
+    },
+    "74": {
+      "id": 74,
+      "name": "GROWTH",
+      "description": "A NORMAL-type move that raises SPCLATK Normally used up to six times",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 20,
+      "effect": "Raises user's Attack and Special Attack."
+    },
+    "75": {
+      "id": 75,
+      "name": "RAZOR LEAF",
+      "description": "A GRASS-type attack that uses sharp-edged leaves Likely to get a critical hit",
+      "type": "Grass",
+      "category": "Physical",
+      "power": 55,
+      "accuracy": 95,
+      "pp": 25,
+      "effect": "High critical hit ratio."
+    },
+    "76": {
+      "id": 76,
+      "name": "SOLARBEAM",
+      "description": "Strongest GRASS-type attack Energy is absorbed in the first turn, then fired on the next",
+      "type": "Grass",
+      "category": "Special",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 10,
+      "effect": "Charges on first turn, attacks on second."
+    },
+    "77": {
+      "id": 77,
+      "name": "POISONPOWDER",
+      "description": "A move that poisons the target If poisoned, the victim loses HP steadily",
+      "type": "Poison",
+      "category": "Status",
+      "power": "—",
+      "accuracy": 75,
+      "pp": 35,
+      "effect": "Poisons opponent."
+    },
+    "78": {
+      "id": 78,
+      "name": "STUN SPORE",
+      "description": "Special move that causes para- lysis The victim has a one-in- four chance of immobility",
+      "type": "Grass",
+      "category": "Status",
+      "power": "—",
+      "accuracy": 75,
+      "pp": 30,
+      "effect": "Paralyzes opponent."
+    },
+    "79": {
+      "id": 79,
+      "name": "SLEEP POWDER",
+      "description": "Induces sleep A POKéMON will stay asleep for several turns if an item isn't used to wake it",
+      "type": "Grass",
+      "category": "Status",
+      "power": "—",
+      "accuracy": 75,
+      "pp": 15,
+      "effect": "Puts opponent to sleep."
+    },
+    "80": {
+      "id": 80,
+      "name": "PETAL DANCE",
+      "description": "A dance-like attack that lasts two to three turns The attacker becomes confused",
+      "type": "Grass",
+      "category": "Special",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 10,
+      "effect": "User attacks for 2-3 turns but then becomes confused."
+    },
+    "81": {
+      "id": 81,
+      "name": "STRING SHOT",
+      "description": "Strings are sprayed out and wrapped around the target to reduce its SPEED",
+      "type": "Bug",
+      "category": "Status",
+      "power": "—",
+      "accuracy": 95,
+      "pp": 40,
+      "effect": "Sharply lowers opponent's Speed."
+    },
+    "82": {
+      "id": 82,
+      "name": "DRAGON RAGE",
+      "description": "A DRAGON-type attack It always inflicts a set amount of damage",
+      "type": "Dragon",
+      "category": "Special",
+      "power": "—",
+      "accuracy": 100,
+      "pp": 10,
+      "effect": "Always inflicts 40 HP."
+    },
+    "83": {
+      "id": 83,
+      "name": "FIRE SPIN",
+      "description": "A FIRE-type attack that lasts two to five turns The flames make the target unable to move",
+      "type": "Fire",
+      "category": "Special",
+      "power": 35,
+      "accuracy": 85,
+      "pp": 15,
+      "effect": "Traps opponent, damaging them for 4-5 turns."
+    },
+    "84": {
+      "id": 84,
+      "name": "THUNDERSHOCK",
+      "description": "An ELECTRIC-type attack Has a one-in-ten chance of paralyzing the target",
+      "type": "Electric",
+      "category": "Special",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 30,
+      "effect": "May paralyze opponent."
+    },
+    "85": {
+      "id": 85,
+      "name": "THUNDERBOLT",
+      "description": "An ELECTRIC-type attack Has a one-in-ten chance of paralyzing the target",
+      "type": "Electric",
+      "category": "Special",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 15,
+      "effect": "May paralyze opponent."
+    },
+    "86": {
+      "id": 86,
+      "name": "THUNDER WAVE",
+      "description": "A special move that causes paralysis The victim has a one- in-four chance of immobility",
+      "type": "Electric",
+      "category": "Status",
+      "power": "—",
+      "accuracy": 90,
+      "pp": 20,
+      "effect": "Paralyzes opponent."
+    },
+    "87": {
+      "id": 87,
+      "name": "THUNDER",
+      "description": "Strongest of all ELECTRIC-type attacks Has a one-in-ten shot at paralyzing the target",
+      "type": "Electric",
+      "category": "Special",
+      "power": 110,
+      "accuracy": 70,
+      "pp": 10,
+      "effect": "May paralyze opponent."
+    },
+    "88": {
+      "id": 88,
+      "name": "ROCK THROW",
+      "description": "A ROCK-type attack As the name implies, a huge boulder is dropped on the target",
+      "type": "Rock",
+      "category": "Physical",
+      "power": 50,
+      "accuracy": 90,
+      "pp": 15,
+      "effect": ""
+    },
+    "89": {
+      "id": 89,
+      "name": "EARTHQUAKE",
+      "description": "An attack that inflicts damage by shaking the ground Useless against the FLYING type",
+      "type": "Ground",
+      "category": "Physical",
+      "power": 100,
+      "accuracy": 100,
+      "pp": 10,
+      "effect": "Power is doubled if opponent is underground from using Dig."
+    },
+    "90": {
+      "id": 90,
+      "name": "FISSURE",
+      "description": "Causes a single-hit knockout if it hits Useless against FLYING- type POKéMON",
+      "type": "Ground",
+      "category": "Physical",
+      "power": "—",
+      "accuracy": 30,
+      "pp": 5,
+      "effect": "One-Hit-KO, if it hits."
+    },
+    "91": {
+      "id": 91,
+      "name": "DIG",
+      "description": "The attacker digs underground in the first turn, then pops up in the next turn to attack",
+      "type": "Ground",
+      "category": "Physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 10,
+      "effect": "Digs underground on first turn, attacks on second. Can also escape from caves."
+    },
+    "92": {
+      "id": 92,
+      "name": "TOXIC",
+      "description": "A move that badly poisons the target The amount of poison damage increases every turn",
+      "type": "Poison",
+      "category": "Status",
+      "power": "—",
+      "accuracy": 90,
+      "pp": 10,
+      "effect": "Badly poisons opponent."
+    },
+    "93": {
+      "id": 93,
+      "name": "CONFUSION",
+      "description": "A PSYCHIC-type attack Has a one-in-ten chance of leaving the target confused",
+      "type": "Psychic",
+      "category": "Special",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 25,
+      "effect": "May confuse opponent."
+    },
+    "94": {
+      "id": 94,
+      "name": "PSYCHIC",
+      "description": "A PSYCHIC-type attack Has a one-in-ten chance of lowering the target's SPCLDEF rating",
+      "type": "Psychic",
+      "category": "Special",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 10,
+      "effect": "May lower opponent's Special Defense."
+    },
+    "95": {
+      "id": 95,
+      "name": "HYPNOSIS",
+      "description": "A special PSYCHIC-type move The target is hypnotized into a deep sleep",
+      "type": "Psychic",
+      "category": "Status",
+      "power": "—",
+      "accuracy": 60,
+      "pp": 20,
+      "effect": "Puts opponent to sleep."
+    },
+    "96": {
+      "id": 96,
+      "name": "MEDITATE",
+      "description": "A special move that boosts the user's ATTACK power Can normally be used up to six times",
+      "type": "Psychic",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 40,
+      "effect": "Raises user's Attack."
+    },
+    "97": {
+      "id": 97,
+      "name": "AGILITY",
+      "description": "A special move that greatly boosts the user's SPEED Normally used up to three times",
+      "type": "Psychic",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 30,
+      "effect": "Sharply raises user's Speed."
+    },
+    "98": {
+      "id": 98,
+      "name": "QUICK ATTACK",
+      "description": "Always strikes first If both POKéMON use this, the one with higher SPEED attacks first",
+      "type": "Normal",
+      "category": "Physical",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 30,
+      "effect": "User attacks first."
+    },
+    "99": {
+      "id": 99,
+      "name": "RAGE",
+      "description": "A non-stop attack move The user's ATTACK power increases every time it sustains damage",
+      "type": "Normal",
+      "category": "Physical",
+      "power": 20,
+      "accuracy": 100,
+      "pp": 20,
+      "effect": "Raises user's Attack when hit."
+    },
+    "100": {
+      "id": 100,
+      "name": "TELEPORT",
+      "description": "A special move for instantly escaping from wild POKéMON Useful in the wild only",
+      "type": "Psychic",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 20,
+      "effect": "Allows user to flee wild battles; also warps player to last PokéCenter."
+    },
+    "101": {
+      "id": 101,
+      "name": "NIGHT SHADE",
+      "description": "A GHOST-type attack Highly accurate, it always inflicts damage",
+      "type": "Ghost",
+      "category": "Special",
+      "power": "—",
+      "accuracy": 100,
+      "pp": 15,
+      "effect": "Inflicts damage equal to user's level."
+    },
+    "102": {
+      "id": 102,
+      "name": "MIMIC",
+      "description": "A move for learning one of the opponent's moves, for use during that battle only",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 10,
+      "effect": "Copies the opponent's last move."
+    },
+    "103": {
+      "id": 103,
+      "name": "SCREECH",
+      "description": "A move that makes a horrible noise It sharply reduces the target's DEFENSE",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": 85,
+      "pp": 40,
+      "effect": "Sharply lowers opponent's Defense."
+    },
+    "104": {
+      "id": 104,
+      "name": "DOUBLE TEAM",
+      "description": "Creates illusionary copies of the user They disorient the enemy, reducing its accuracy",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 15,
+      "effect": "Raises user's Evasiveness."
+    },
+    "105": {
+      "id": 105,
+      "name": "RECOVER",
+      "description": "Half of the user's maximum HP is restored Few POKéMON learn this move on their own",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 5,
+      "effect": "User recovers half its max HP."
+    },
+    "106": {
+      "id": 106,
+      "name": "HARDEN",
+      "description": "Raises the user's DEFENSE Useful when battling physically strong POKéMON",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 30,
+      "effect": "Raises user's Defense."
+    },
+    "107": {
+      "id": 107,
+      "name": "MINIMIZE",
+      "description": "Reduces the user's size and makes it harder to hit Can normally be used up to six times",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 10,
+      "effect": "Sharply raises user's Evasiveness."
+    },
+    "108": {
+      "id": 108,
+      "name": "SMOKESCREEN",
+      "description": "Creates an obscuring cloud of smoke that reduces the enemy's accuracy",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": 100,
+      "pp": 20,
+      "effect": "Lowers opponent's Accuracy."
+    },
+    "109": {
+      "id": 109,
+      "name": "CONFUSE RAY",
+      "description": "A sinister flash of light makes the target confused A special GHOST-type move",
+      "type": "Ghost",
+      "category": "Status",
+      "power": "—",
+      "accuracy": 100,
+      "pp": 10,
+      "effect": "Confuses opponent."
+    },
+    "110": {
+      "id": 110,
+      "name": "WITHDRAW",
+      "description": "Used mainly by POKéMON with shells By withdrawing into the shell, DEFENSE is increased",
+      "type": "Water",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 40,
+      "effect": "Raises user's Defense."
+    },
+    "111": {
+      "id": 111,
+      "name": "DEFENSE CURL",
+      "description": "Raises the user's DEFENSE Can normally be used up to six times in a row",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 40,
+      "effect": "Raises user's Defense."
+    },
+    "112": {
+      "id": 112,
+      "name": "BARRIER",
+      "description": "Instantly forms a barrier between the user and the opponent DEFENSE is increased",
+      "type": "Psychic",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 20,
+      "effect": "Sharply raises user's Defense."
+    },
+    "113": {
+      "id": 113,
+      "name": "LIGHT SCREEN",
+      "description": "Reduces damage from special attacks by about half A special PSYCHIC-type move",
+      "type": "Psychic",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 30,
+      "effect": "Halves damage from Special attacks for 5 turns."
+    },
+    "114": {
+      "id": 114,
+      "name": "HAZE",
+      "description": "Eliminates all changes affecting stats, such as SPEED, of both POKéMON in battle",
+      "type": "Ice",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 30,
+      "effect": "Resets all stat changes."
+    },
+    "115": {
+      "id": 115,
+      "name": "REFLECT",
+      "description": "Reduces damage from physical attacks by about half A special PSYCHIC-type move",
+      "type": "Psychic",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 20,
+      "effect": "Halves damage from Physical attacks for 5 turns."
+    },
+    "116": {
+      "id": 116,
+      "name": "FOCUS ENERGY",
+      "description": "Raises the likelihood of nailing the opponent's weak spot for a critical hit",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 30,
+      "effect": "Increases critical hit ratio."
+    },
+    "117": {
+      "id": 117,
+      "name": "BIDE",
+      "description": "The user waits for several turns At the end, it returns double the damage it received",
+      "type": "Normal",
+      "category": "Physical",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 10,
+      "effect": "User takes damage for two turns then strikes back double."
+    },
+    "118": {
+      "id": 118,
+      "name": "METRONOME",
+      "description": "The user waggles its finger, triggering a move There is no telling what will happen",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 10,
+      "effect": "User performs almost any move in the game at random."
+    },
+    "119": {
+      "id": 119,
+      "name": "MIRROR MOVE",
+      "description": "A move that strikes back with the opponent's last move It comes after the enemy's move",
+      "type": "Flying",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 20,
+      "effect": "User performs the opponent's last move."
+    },
+    "120": {
+      "id": 120,
+      "name": "SELFDESTRUCT",
+      "description": "The user explodes, damaging the enemy, then faints Useless against the GHOST type",
+      "type": "Normal",
+      "category": "Physical",
+      "power": 200,
+      "accuracy": 100,
+      "pp": 5,
+      "effect": "User faints."
+    },
+    "121": {
+      "id": 121,
+      "name": "EGG BOMB",
+      "description": "A NORMAL-type attack An egg is launched at the target It may miss, however",
+      "type": "Normal",
+      "category": "Physical",
+      "power": 100,
+      "accuracy": 75,
+      "pp": 10,
+      "effect": ""
+    },
+    "122": {
+      "id": 122,
+      "name": "LICK",
+      "description": "A GHOST-type attack Has a one-in-three chance of leaving the target with paralysis",
+      "type": "Ghost",
+      "category": "Physical",
+      "power": 30,
+      "accuracy": 100,
+      "pp": 30,
+      "effect": "May paralyze opponent."
+    },
+    "123": {
+      "id": 123,
+      "name": "SMOG",
+      "description": "Smog is spewed as a cloud Has a fifty-fifty chance of poisoning the target",
+      "type": "Poison",
+      "category": "Special",
+      "power": 30,
+      "accuracy": 70,
+      "pp": 20,
+      "effect": "May poison opponent."
+    },
+    "124": {
+      "id": 124,
+      "name": "SLUDGE",
+      "description": "A POISON-type attack Has a one-in-three chance of poisoning the target",
+      "type": "Poison",
+      "category": "Special",
+      "power": 65,
+      "accuracy": 100,
+      "pp": 20,
+      "effect": "May poison opponent."
+    },
+    "125": {
+      "id": 125,
+      "name": "BONE CLUB",
+      "description": "A physical attack using a bone as a club If it connects, it may cause the target to flinch",
+      "type": "Ground",
+      "category": "Physical",
+      "power": 65,
+      "accuracy": 85,
+      "pp": 20,
+      "effect": "May cause flinching."
+    },
+    "126": {
+      "id": 126,
+      "name": "FIRE BLAST",
+      "description": "Strongest FIRE-type attack Has a one-in-ten chance of inflicting a burn on the target",
+      "type": "Fire",
+      "category": "Special",
+      "power": 110,
+      "accuracy": 85,
+      "pp": 5,
+      "effect": "May burn opponent."
+    },
+    "127": {
+      "id": 127,
+      "name": "WATERFALL",
+      "description": "A WATER-type attack Hits with a blow packing the power of fish traveling up waterfalls",
+      "type": "Water",
+      "category": "Physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 15,
+      "effect": "May cause flinching."
+    },
+    "128": {
+      "id": 128,
+      "name": "CLAMP",
+      "description": "Grips the target in the attacker's shell for two to five turns",
+      "type": "Water",
+      "category": "Physical",
+      "power": 35,
+      "accuracy": 85,
+      "pp": 15,
+      "effect": "Traps opponent, damaging them for 4-5 turns."
+    },
+    "129": {
+      "id": 129,
+      "name": "SWIFT",
+      "description": "A NORMAL-type attack It is highly accurate, so it can be counted on to inflict damage",
+      "type": "Normal",
+      "category": "Special",
+      "power": 60,
+      "accuracy": "∞",
+      "pp": 20,
+      "effect": "Ignores Accuracy and Evasiveness."
+    },
+    "130": {
+      "id": 130,
+      "name": "SKULL BASH",
+      "description": "In the first turn, the attacker tucks its head The next turn, it head-butts at full steam",
+      "type": "Normal",
+      "category": "Physical",
+      "power": 130,
+      "accuracy": 100,
+      "pp": 10,
+      "effect": "Raises Defense on first turn, attacks on second."
+    },
+    "131": {
+      "id": 131,
+      "name": "SPIKE CANNON",
+      "description": "A physical attack consisting of two to five consecutive hits Highly accurate",
+      "type": "Normal",
+      "category": "Physical",
+      "power": 20,
+      "accuracy": 100,
+      "pp": 15,
+      "effect": "Hits 2-5 times in one turn."
+    },
+    "132": {
+      "id": 132,
+      "name": "CONSTRICT",
+      "description": "A NORMAL-type attack Has a one-in-ten chance of reducing the target's SPEED",
+      "type": "Normal",
+      "category": "Physical",
+      "power": 10,
+      "accuracy": 100,
+      "pp": 35,
+      "effect": "May lower opponent's Speed by one stage."
+    },
+    "133": {
+      "id": 133,
+      "name": "AMNESIA",
+      "description": "A move that increases the user's SPCLDEF stat It is normally used up to three times",
+      "type": "Psychic",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 20,
+      "effect": "Sharply raises user's Special Defense."
+    },
+    "134": {
+      "id": 134,
+      "name": "KINESIS",
+      "description": "A special move of bending spoons to confound the enemy Makes the user harder to hit",
+      "type": "Psychic",
+      "category": "Status",
+      "power": "—",
+      "accuracy": 80,
+      "pp": 15,
+      "effect": "Lowers opponent's Accuracy."
+    },
+    "135": {
+      "id": 135,
+      "name": "SOFTBOILED",
+      "description": "Half of the user's maximum HP is restored May also be used in the field",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 10,
+      "effect": "User recovers half its max HP."
+    },
+    "136": {
+      "id": 136,
+      "name": "HI JUMP KICK",
+      "description": "Stronger than JUMP KICK If it misses, the attacker takes 1/8 the damage it would've caused",
+      "type": "Fighting",
+      "category": "Physical",
+      "power": 130,
+      "accuracy": 90,
+      "pp": 20,
+      "effect": "If it misses, the user loses half their HP."
+    },
+    "137": {
+      "id": 137,
+      "name": "GLARE",
+      "description": "Transfixes the enemy with terrifying sharp eyes,  frightening it into paralysis",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": 100,
+      "pp": 30,
+      "effect": "Paralyzes opponent."
+    },
+    "138": {
+      "id": 138,
+      "name": "DREAM EATER",
+      "description": "Works only on sleeping POKéMON Steals the target's HP and adds 50%% of it to the user's HP",
+      "type": "Psychic",
+      "category": "Special",
+      "power": 100,
+      "accuracy": 100,
+      "pp": 15,
+      "effect": "User recovers half the HP inflicted on a sleeping opponent."
+    },
+    "139": {
+      "id": 139,
+      "name": "POISON GAS",
+      "description": "A poisonous cloud of gas is forcefully expelled to poison the target",
+      "type": "Poison",
+      "category": "Status",
+      "power": "—",
+      "accuracy": 90,
+      "pp": 40,
+      "effect": "Poisons opponent."
+    },
+    "140": {
+      "id": 140,
+      "name": "BARRAGE",
+      "description": "Several spheres are thrown consecutively at the target to inflict damage",
+      "type": "Normal",
+      "category": "Physical",
+      "power": 15,
+      "accuracy": 85,
+      "pp": 20,
+      "effect": "Hits 2-5 times in one turn."
+    },
+    "141": {
+      "id": 141,
+      "name": "LEECH LIFE",
+      "description": "An HP-draining attack It adds half the HP it drained from  the target to the attacker's HP",
+      "type": "Bug",
+      "category": "Physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 10,
+      "effect": "User recovers half the HP inflicted on opponent."
+    },
+    "142": {
+      "id": 142,
+      "name": "LOVELY KISS",
+      "description": "A special move that puts the target to sleep with a big kiss (Actually, the victim faints)",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": 75,
+      "pp": 10,
+      "effect": "Puts opponent to sleep."
+    },
+    "143": {
+      "id": 143,
+      "name": "SKY ATTACK",
+      "description": "Strongest FLYING-type attack Stores energy in the first turn, then fires in the next",
+      "type": "Flying",
+      "category": "Physical",
+      "power": 140,
+      "accuracy": 90,
+      "pp": 5,
+      "effect": "Charges on first turn, attacks on second. May cause flinching. High critical hit ratio."
+    },
+    "144": {
+      "id": 144,
+      "name": "TRANSFORM",
+      "description": "Transforms user into a copy of the target, including the type All moves have only five PP each",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 10,
+      "effect": "User takes on the form and attacks of the opponent."
+    },
+    "145": {
+      "id": 145,
+      "name": "BUBBLE",
+      "description": "A WATER-type attack Has a one-in-ten chance of reducing the target's SPEED",
+      "type": "Water",
+      "category": "Special",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 30,
+      "effect": "May lower opponent's Speed."
+    },
+    "146": {
+      "id": 146,
+      "name": "DIZZY PUNCH",
+      "description": "A NORMAL-type attack Has a  one-in-five chance of leaving the target confused",
+      "type": "Normal",
+      "category": "Physical",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 10,
+      "effect": "May confuse opponent."
+    },
+    "147": {
+      "id": 147,
+      "name": "SPORE",
+      "description": "Special spores are scattered from mushrooms If the foe inhales them, it will fall asleep",
+      "type": "Grass",
+      "category": "Status",
+      "power": "—",
+      "accuracy": 100,
+      "pp": 15,
+      "effect": "Puts opponent to sleep."
+    },
+    "148": {
+      "id": 148,
+      "name": "FLASH",
+      "description": "Blinds the target with a bright flash of light, reducing the  opponent's accuracy",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": 100,
+      "pp": 20,
+      "effect": "Lowers opponent's Accuracy."
+    },
+    "149": {
+      "id": 149,
+      "name": "PSYWAVE",
+      "description": "A PSYCHIC-type attack of varying intensity It occasion- ally inflicts heavy damage",
+      "type": "Psychic",
+      "category": "Special",
+      "power": "—",
+      "accuracy": 100,
+      "pp": 15,
+      "effect": "Inflicts damage 50-150% of user's level."
+    },
+    "150": {
+      "id": 150,
+      "name": "SPLASH",
+      "description": "A move that involves only flopping and SPLASHing around It has no effect",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 40,
+      "effect": "Doesn't do ANYTHING."
+    },
+    "151": {
+      "id": 151,
+      "name": "ACID ARMOR",
+      "description": "Melts the user's body for protection A move that sharply raises DEFENSE",
+      "type": "Poison",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 40,
+      "effect": "Sharply raises user's Defense."
+    },
+    "152": {
+      "id": 152,
+      "name": "CRABHAMMER",
+      "description": "A move that is used only by POKéMON with pincers Likely to get a critical hit",
+      "type": "Water",
+      "category": "Physical",
+      "power": 100,
+      "accuracy": 90,
+      "pp": 10,
+      "effect": "High critical hit ratio."
+    },
+    "153": {
+      "id": 153,
+      "name": "EXPLOSION",
+      "description": "The most powerful attack of all However, the attacker faints after using this move",
+      "type": "Normal",
+      "category": "Physical",
+      "power": 250,
+      "accuracy": 100,
+      "pp": 5,
+      "effect": "User faints."
+    },
+    "154": {
+      "id": 154,
+      "name": "FURY SWIPES",
+      "description": "The target is scratched by sharp claws two to five times in quick succession",
+      "type": "Normal",
+      "category": "Physical",
+      "power": 18,
+      "accuracy": 80,
+      "pp": 15,
+      "effect": "Hits 2-5 times in one turn."
+    },
+    "155": {
+      "id": 155,
+      "name": "BONEMERANG",
+      "description": "A boomerang made of bone is thrown to inflict damage twice, on the way out and on return",
+      "type": "Ground",
+      "category": "Physical",
+      "power": 50,
+      "accuracy": 90,
+      "pp": 10,
+      "effect": "Hits twice in one turn."
+    },
+    "156": {
+      "id": 156,
+      "name": "REST",
+      "description": "The user takes a nap to fully restore its HP and recover from any status abnormalities",
+      "type": "Psychic",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 10,
+      "effect": "User sleeps for 2 turns, but user is fully healed."
+    },
+    "157": {
+      "id": 157,
+      "name": "ROCK SLIDE",
+      "description": "A ROCK-type attack that hits the target with an avalanche of rocks and boulders",
+      "type": "Rock",
+      "category": "Physical",
+      "power": 75,
+      "accuracy": 90,
+      "pp": 10,
+      "effect": "May cause flinching."
+    },
+    "158": {
+      "id": 158,
+      "name": "HYPER FANG",
+      "description": "A NORMAL-type attack Has a one-in-ten chance of making the target flinch",
+      "type": "Normal",
+      "category": "Physical",
+      "power": 80,
+      "accuracy": 90,
+      "pp": 15,
+      "effect": "May cause flinching."
+    },
+    "159": {
+      "id": 159,
+      "name": "SHARPEN",
+      "description": "Raises the user's ATTACK power The edges of the POKéMON are made harder for more impact",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 30,
+      "effect": "Raises user's Attack."
+    },
+    "160": {
+      "id": 160,
+      "name": "CONVERSION",
+      "description": "A special move that switches the user's elemental type into  one of the user's attack types",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 30,
+      "effect": "Changes user's type to that of its first move."
+    },
+    "161": {
+      "id": 161,
+      "name": "TRI ATTACK",
+      "description": "A NORMAL-type attack A triangular field of energy is created and launched",
+      "type": "Normal",
+      "category": "Special",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 10,
+      "effect": "May paralyze, burn or freeze opponent."
+    },
+    "162": {
+      "id": 162,
+      "name": "SUPER FANG",
+      "description": "If it hits, this attack cuts the target's HP in half Learned by POKéMON with developed fangs",
+      "type": "Normal",
+      "category": "Physical",
+      "power": "—",
+      "accuracy": 90,
+      "pp": 10,
+      "effect": "Always takes off half of the opponent's HP."
+    },
+    "163": {
+      "id": 163,
+      "name": "SLASH",
+      "description": "A NORMAL-type attack It has a high probability of a critical hit for inflicting double damage",
+      "type": "Normal",
+      "category": "Physical",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 20,
+      "effect": "High critical hit ratio."
+    },
+    "164": {
+      "id": 164,
+      "name": "SUBSTITUTE",
+      "description": "Uses 1/4 of the user's maximum HP to create a substitute that takes the opponent's attacks",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 10,
+      "effect": "Uses HP to creates a decoy that takes hits."
+    },
+    "165": {
+      "id": 165,
+      "name": "STRUGGLE",
+      "description": "Used only if the user is totally out of PP The user is hit with 1/4 the damage it inflicts",
+      "type": "Normal",
+      "category": "Physical",
+      "power": 50,
+      "accuracy": "—",
+      "pp": "—",
+      "effect": "Only usable when all PP are gone. Hurts the user."
+    },
+    "166": {
+      "id": 166,
+      "name": "SKETCH",
+      "description": "A move that allows the user to copy a move used by an opponent and learn that move",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 1,
+      "effect": "Permanently copies the opponent's last move."
+    },
+    "167": {
+      "id": 167,
+      "name": "TRIPLE KICK",
+      "description": "A three-kick attack that inflicts increasing damage When one kick misses, the move ends",
+      "type": "Fighting",
+      "category": "Physical",
+      "power": 10,
+      "accuracy": 90,
+      "pp": 10,
+      "effect": "Hits thrice in one turn at increasing power."
+    },
+    "168": {
+      "id": 168,
+      "name": "THIEF",
+      "description": "A DARK-type attack The attacking POKéMON may steal an item held by the target",
+      "type": "Dark",
+      "category": "Physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 25,
+      "effect": "Also steals opponent's held item."
+    },
+    "169": {
+      "id": 169,
+      "name": "SPIDER WEB",
+      "description": "Sticky strings that prevent the target from escaping until the attacking POKéMON is gone",
+      "type": "Bug",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 10,
+      "effect": "Opponent cannot escape/switch."
+    },
+    "170": {
+      "id": 170,
+      "name": "MIND READER",
+      "description": "It predicts the opponent's movement The user's next attack will never miss",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 5,
+      "effect": "User's next attack is guaranteed to hit."
+    },
+    "171": {
+      "id": 171,
+      "name": "NIGHTMARE",
+      "description": "A move that makes a sleeping target have bad dreams The victim will steadily lose HP",
+      "type": "Ghost",
+      "category": "Status",
+      "power": "—",
+      "accuracy": 100,
+      "pp": 15,
+      "effect": "The sleeping opponent loses 25% of its max HP each turn."
+    },
+    "172": {
+      "id": 172,
+      "name": "FLAME WHEEL",
+      "description": "A FIRE-type attack Has a one-in-ten chance of inflicting a burn on the target",
+      "type": "Fire",
+      "category": "Physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 25,
+      "effect": "May burn opponent."
+    },
+    "173": {
+      "id": 173,
+      "name": "SNORE",
+      "description": "Has a one-in-three chance of making the target flinch Can be used only by a sleeping POKéMON",
+      "type": "Normal",
+      "category": "Special",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 15,
+      "effect": "Can only be used if asleep. May cause flinching."
+    },
+    "174": {
+      "id": 174,
+      "name": "CURSE",
+      "description": "Raises ATTACK and DEFENSE at the expense of SPEED It works differently for the GHOST type",
+      "type": "Ghost",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 10,
+      "effect": "Ghosts lose 50% of max HP and curse the opponent; Non-Ghosts raise Attack, Defense and lower Speed."
+    },
+    "175": {
+      "id": 175,
+      "name": "FLAIL",
+      "description": "An attack that increases in power if the user's HP is low It could turn the tide in battle",
+      "type": "Normal",
+      "category": "Physical",
+      "power": "—",
+      "accuracy": 100,
+      "pp": 15,
+      "effect": "The lower the user's HP, the higher the power."
+    },
+    "176": {
+      "id": 176,
+      "name": "CONVERSION 2",
+      "description": "A move that changes the user's type into one that is resistant to the opponent's last move",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 30,
+      "effect": "User changes type to become resistant to opponent's last move."
+    },
+    "177": {
+      "id": 177,
+      "name": "AEROBLAST",
+      "description": "A powerful FLYING-type attack It often becomes a critical hit",
+      "type": "Flying",
+      "category": "Special",
+      "power": 100,
+      "accuracy": 95,
+      "pp": 5,
+      "effect": "High critical hit ratio."
+    },
+    "178": {
+      "id": 178,
+      "name": "COTTON SPORE",
+      "description": "Spores that cling to the target, sharply reducing the opponent's SPEED",
+      "type": "Grass",
+      "category": "Status",
+      "power": "—",
+      "accuracy": 100,
+      "pp": 40,
+      "effect": "Sharply lowers opponent's Speed."
+    },
+    "179": {
+      "id": 179,
+      "name": "REVERSAL",
+      "description": "An attack that increases in power if the user's HP is low It could turn the tide in battle",
+      "type": "Fighting",
+      "category": "Physical",
+      "power": "—",
+      "accuracy": 100,
+      "pp": 15,
+      "effect": "The lower the user's HP, the higher the power."
+    },
+    "180": {
+      "id": 180,
+      "name": "SPITE",
+      "description": "A vengeful move that slightly reduces the PP of the opponent's last move",
+      "type": "Ghost",
+      "category": "Status",
+      "power": "—",
+      "accuracy": 100,
+      "pp": 10,
+      "effect": "The opponent's last move loses 2-5 PP."
+    },
+    "181": {
+      "id": 181,
+      "name": "POWDER SNOW",
+      "description": "An ICE-type attack Has a one-in-ten chance of freezing the target",
+      "type": "Ice",
+      "category": "Special",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 25,
+      "effect": "May freeze opponent."
+    },
+    "182": {
+      "id": 182,
+      "name": "PROTECT",
+      "description": "Completely foils an opponent's attack If used consecutively, its success rate decreases",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 10,
+      "effect": "Protects the user, but may fail if used consecutively."
+    },
+    "183": {
+      "id": 183,
+      "name": "MACH PUNCH",
+      "description": "An incredibly fast punch that always lands first",
+      "type": "Fighting",
+      "category": "Physical",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 30,
+      "effect": "User attacks first."
+    },
+    "184": {
+      "id": 184,
+      "name": "SCARY FACE",
+      "description": "A horrific look that scares the victim, sharply reducing the target's SPEED",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": 100,
+      "pp": 10,
+      "effect": "Sharply lowers opponent's Speed."
+    },
+    "185": {
+      "id": 185,
+      "name": "FAINT ATTACK",
+      "description": "A DARK-type attack The move catches the opponent off guard, so it never misses",
+      "type": "Dark",
+      "category": "Physical",
+      "power": 60,
+      "accuracy": "∞",
+      "pp": 20,
+      "effect": "Ignores Accuracy and Evasiveness."
+    },
+    "186": {
+      "id": 186,
+      "name": "SWEET KISS",
+      "description": "A sweet little kiss that causes the target to become giddy and confused",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": 75,
+      "pp": 10,
+      "effect": "Confuses opponent."
+    },
+    "187": {
+      "id": 187,
+      "name": "BELLY DRUM",
+      "description": "A move that allows the user to consume half of its own HP in order to maximize its ATTACK",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 10,
+      "effect": "User loses 50% of its max HP, but Attack raises to maximum."
+    },
+    "188": {
+      "id": 188,
+      "name": "SLUDGE BOMB",
+      "description": "A POISON-type attack Has a one-in-three chance of leaving the target poisoned",
+      "type": "Poison",
+      "category": "Special",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 10,
+      "effect": "May poison opponent."
+    },
+    "189": {
+      "id": 189,
+      "name": "MUD-SLAP",
+      "description": "An attack that fires dirt, inflicting damage and reducing the target's accuracy",
+      "type": "Ground",
+      "category": "Special",
+      "power": 20,
+      "accuracy": 100,
+      "pp": 10,
+      "effect": "Lowers opponent's Accuracy."
+    },
+    "190": {
+      "id": 190,
+      "name": "OCTAZOOKA",
+      "description": "An attack that shoots ink Has a fifty-fifty chance of reduc- ing the target's accuracy",
+      "type": "Water",
+      "category": "Special",
+      "power": 65,
+      "accuracy": 85,
+      "pp": 10,
+      "effect": "May lower opponent's Accuracy."
+    },
+    "191": {
+      "id": 191,
+      "name": "SPIKES",
+      "description": "An attack that scatters SPIKES and injures opponent POKéMON when they switch",
+      "type": "Ground",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 20,
+      "effect": "Damages opponents switching into battle."
+    },
+    "192": {
+      "id": 192,
+      "name": "ZAP CANNON",
+      "description": "An ELECTRIC-type attack Inaccurate but is guaranteed to cause paralysis if it hits",
+      "type": "Electric",
+      "category": "Special",
+      "power": 120,
+      "accuracy": 50,
+      "pp": 5,
+      "effect": "Paralyzes opponent."
+    },
+    "193": {
+      "id": 193,
+      "name": "FORESIGHT",
+      "description": "Neutralizes the foe's evasive- ness Also makes the GHOST type vulnerable to physical attacks",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 40,
+      "effect": "Resets opponent's Evasiveness, and allows Normal- and Fighting-type attacks to hit Ghosts."
+    },
+    "194": {
+      "id": 194,
+      "name": "DESTINY BOND",
+      "description": "A move that causes the opponent to faint if the user faints after using this move",
+      "type": "Ghost",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 5,
+      "effect": "If the user faints, the opponent also faints."
+    },
+    "195": {
+      "id": 195,
+      "name": "PERISH SONG",
+      "description": "A malevolent melody that causes both the user and the opponent to faint in three turns",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 5,
+      "effect": "Any Pokémon in play when this attack is used faints in 3 turns."
+    },
+    "196": {
+      "id": 196,
+      "name": "ICY WIND",
+      "description": "An ICE-type attack It is guaranteed to reduce the target's SPEED if it hits",
+      "type": "Ice",
+      "category": "Special",
+      "power": 55,
+      "accuracy": 95,
+      "pp": 15,
+      "effect": "Lowers opponent's Speed."
+    },
+    "197": {
+      "id": 197,
+      "name": "DETECT",
+      "description": "Allows user to completely evade attack If used consecutively, its success rate decreases",
+      "type": "Fighting",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 5,
+      "effect": "Protects the user, but may fail if used consecutively."
+    },
+    "198": {
+      "id": 198,
+      "name": "BONE RUSH",
+      "description": "A GROUND-type attack The attacker uses a bone to club the foe two to five times",
+      "type": "Ground",
+      "category": "Physical",
+      "power": 25,
+      "accuracy": 90,
+      "pp": 10,
+      "effect": "Hits 2-5 times in one turn."
+    },
+    "199": {
+      "id": 199,
+      "name": "LOCK-ON",
+      "description": "An attack that locks on to the target to ensure that the next attack will hit without fail",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 5,
+      "effect": "User's next attack is guaranteed to hit."
+    },
+    "200": {
+      "id": 200,
+      "name": "OUTRAGE",
+      "description": "An attack that lasts two to three turns Afterwards, the attacker will become confused",
+      "type": "Dragon",
+      "category": "Physical",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 10,
+      "effect": "User attacks for 2-3 turns but then becomes confused."
+    },
+    "201": {
+      "id": 201,
+      "name": "SANDSTORM",
+      "description": "An attack that creates a sand- storm The effect causes damage to both combatants",
+      "type": "Rock",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 10,
+      "effect": "Creates a sandstorm for 5 turns."
+    },
+    "202": {
+      "id": 202,
+      "name": "GIGA DRAIN",
+      "description": "Half of the HP drained from the target is added to the attacker's HP",
+      "type": "Grass",
+      "category": "Special",
+      "power": 75,
+      "accuracy": 100,
+      "pp": 10,
+      "effect": "User recovers half the HP inflicted on opponent."
+    },
+    "203": {
+      "id": 203,
+      "name": "ENDURE",
+      "description": "Always leaves the user with at least one HP Success rate decreases if used repeatedly",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 10,
+      "effect": "Always left with at least 1 HP, but may fail if used repeatedly."
+    },
+    "204": {
+      "id": 204,
+      "name": "CHARM",
+      "description": "A move that charms the target into complacency, sharply reducing its ATTACK power",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": 100,
+      "pp": 20,
+      "effect": "Sharply lowers opponent's Attack."
+    },
+    "205": {
+      "id": 205,
+      "name": "ROLLOUT",
+      "description": "Attacks for five turns, growing more powerful each time Power returns to normal if it misses",
+      "type": "Rock",
+      "category": "Physical",
+      "power": 30,
+      "accuracy": 90,
+      "pp": 20,
+      "effect": "Doubles in power each turn for 5 turns."
+    },
+    "206": {
+      "id": 206,
+      "name": "FALSE SWIPE",
+      "description": "A move that adjusts ATTACK so that the foe has one HP left  Can't cause the foe to faint",
+      "type": "Normal",
+      "category": "Physical",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 40,
+      "effect": "Always leaves opponent with at least 1 HP."
+    },
+    "207": {
+      "id": 207,
+      "name": "SWAGGER",
+      "description": "A move that infuriates and  confuses the opponent, but it increases the target's ATTACK",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": 85,
+      "pp": 15,
+      "effect": "Confuses opponent, but sharply raises its Attack."
+    },
+    "208": {
+      "id": 208,
+      "name": "MILK DRINK",
+      "description": "A move that restores HP by half of the user's max HP This move may also be used in the field",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 5,
+      "effect": "User recovers half its max HP."
+    },
+    "209": {
+      "id": 209,
+      "name": "SPARK",
+      "description": "An ELECTRIC-type attack Has a one-in-three chance of para- lyzing the target",
+      "type": "Electric",
+      "category": "Physical",
+      "power": 65,
+      "accuracy": 100,
+      "pp": 20,
+      "effect": "May paralyze opponent."
+    },
+    "210": {
+      "id": 210,
+      "name": "FURY CUTTER",
+      "description": "A BUG-type attack that grows more powerful with every hit Returns to normal if it misses",
+      "type": "Bug",
+      "category": "Physical",
+      "power": 40,
+      "accuracy": 95,
+      "pp": 20,
+      "effect": "Power increases each turn."
+    },
+    "211": {
+      "id": 211,
+      "name": "STEEL WING",
+      "description": "Strikes the target with stiff wings Has a one-in-ten chance of raising the user's DEFENSE",
+      "type": "Steel",
+      "category": "Physical",
+      "power": 70,
+      "accuracy": 90,
+      "pp": 25,
+      "effect": "May raise user's Defense."
+    },
+    "212": {
+      "id": 212,
+      "name": "MEAN LOOK",
+      "description": "A probing stare that prevents the target from escaping until the attacking POKéMON is gone",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 5,
+      "effect": "Opponent cannot flee or switch."
+    },
+    "213": {
+      "id": 213,
+      "name": "ATTRACT",
+      "description": "Infatuates targets, making it hard for them to attack foes of the opposite gender",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": 100,
+      "pp": 15,
+      "effect": "If opponent is the opposite gender, it's less likely to attack."
+    },
+    "214": {
+      "id": 214,
+      "name": "SLEEP TALK",
+      "description": "Randomly chooses one of the user's moves Can be used only by a sleeping POKéMON",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 10,
+      "effect": "User performs one of its own moves while sleeping."
+    },
+    "215": {
+      "id": 215,
+      "name": "HEAL BELL",
+      "description": "The soothing ringing of a bell that eliminates all status problems for the entire party",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 5,
+      "effect": "Heals the user's party's status conditions."
+    },
+    "216": {
+      "id": 216,
+      "name": "RETURN",
+      "description": "A NORMAL-type attack The tamer the user, the more powerful the move",
+      "type": "Normal",
+      "category": "Physical",
+      "power": "—",
+      "accuracy": 100,
+      "pp": 20,
+      "effect": "Power increases with higher Friendship."
+    },
+    "217": {
+      "id": 217,
+      "name": "PRESENT",
+      "description": "A move that inflicts major damage but may restore the target's HP",
+      "type": "Normal",
+      "category": "Physical",
+      "power": "—",
+      "accuracy": 90,
+      "pp": 15,
+      "effect": "Either deals damage or heals."
+    },
+    "218": {
+      "id": 218,
+      "name": "FRUSTRATION",
+      "description": "A NORMAL-type attack The more the user dislikes its trainer, the more powerful the move",
+      "type": "Normal",
+      "category": "Physical",
+      "power": "—",
+      "accuracy": 100,
+      "pp": 20,
+      "effect": "Power decreases with higher Friendship."
+    },
+    "219": {
+      "id": 219,
+      "name": "SAFEGUARD",
+      "description": "A mystic power that protects the user from status problems for five turns",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 25,
+      "effect": "The user's party is protected from status conditions."
+    },
+    "220": {
+      "id": 220,
+      "name": "PAIN SPLIT",
+      "description": "A move that adds the HPs of the user and the target, then divides the total between them",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 20,
+      "effect": "The user's and opponent's HP becomes the average of both."
+    },
+    "221": {
+      "id": 221,
+      "name": "SACRED FIRE",
+      "description": "A FIRE-type attack Has a one- in-two chance of leaving the target with a burn",
+      "type": "Fire",
+      "category": "Physical",
+      "power": 100,
+      "accuracy": 95,
+      "pp": 5,
+      "effect": "May burn opponent."
+    },
+    "222": {
+      "id": 222,
+      "name": "MAGNITUDE",
+      "description": "A GROUND-type attack The power of the attack will vary each time it is used",
+      "type": "Ground",
+      "category": "Physical",
+      "power": "—",
+      "accuracy": 100,
+      "pp": 30,
+      "effect": "Hits with random power."
+    },
+    "223": {
+      "id": 223,
+      "name": "DYNAMICPUNCH",
+      "description": "A FIGHTING-type attack In- accurate but guaranteed to confuse the opponent if it hits",
+      "type": "Fighting",
+      "category": "Physical",
+      "power": 100,
+      "accuracy": 50,
+      "pp": 5,
+      "effect": "Confuses opponent."
+    },
+    "224": {
+      "id": 224,
+      "name": "MEGAHORN",
+      "description": "A BUG-type attack that uses a stiff horn or horns It is rarely learned",
+      "type": "Bug",
+      "category": "Physical",
+      "power": 120,
+      "accuracy": 85,
+      "pp": 10,
+      "effect": ""
+    },
+    "225": {
+      "id": 225,
+      "name": "DRAGONBREATH",
+      "description": "A DRAGON-type attack Has a  one-in-three chance of paralyzing the target",
+      "type": "Dragon",
+      "category": "Special",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 20,
+      "effect": "May paralyze opponent."
+    },
+    "226": {
+      "id": 226,
+      "name": "BATON PASS",
+      "description": "A move that transfers the user's status changes to the next POKéMON when switching",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 40,
+      "effect": "User switches out and gives stat changes to the incoming Pokémon."
+    },
+    "227": {
+      "id": 227,
+      "name": "ENCORE",
+      "description": "Forces the target to continue to use the move it used last for the next two to six turns",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": 100,
+      "pp": 5,
+      "effect": "Forces opponent to keep using its last move for 3 turns."
+    },
+    "228": {
+      "id": 228,
+      "name": "PURSUIT",
+      "description": "A DARK-type attack It inflicts major damage if the target switches out in the same turn",
+      "type": "Dark",
+      "category": "Physical",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 20,
+      "effect": "Double power if the opponent is switching out."
+    },
+    "229": {
+      "id": 229,
+      "name": "RAPID SPIN",
+      "description": "A NORMAL-type attack By spin- ning quickly, the user can escape from restraining moves",
+      "type": "Normal",
+      "category": "Physical",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 40,
+      "effect": "Raises user's Speed and removes entry hazards and trap move effects."
+    },
+    "230": {
+      "id": 230,
+      "name": "SWEET SCENT",
+      "description": "A pleasant aroma that distracts the target, making the opponent easier to hit",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": 100,
+      "pp": 20,
+      "effect": "Lowers opponent's Evasiveness."
+    },
+    "231": {
+      "id": 231,
+      "name": "IRON TAIL",
+      "description": "Strikes the target with a stiff tail Has a one-in-three shot at lowering the target's DEFENSE",
+      "type": "Steel",
+      "category": "Physical",
+      "power": 100,
+      "accuracy": 75,
+      "pp": 15,
+      "effect": "May lower opponent's Defense."
+    },
+    "232": {
+      "id": 232,
+      "name": "METAL CLAW",
+      "description": "Strikes the target with sharp claws Has a one-in-ten shot at raising the user's ATTACK",
+      "type": "Steel",
+      "category": "Physical",
+      "power": 50,
+      "accuracy": 95,
+      "pp": 35,
+      "effect": "May raise user's Attack."
+    },
+    "233": {
+      "id": 233,
+      "name": "VITAL THROW",
+      "description": "A FIGHTING-type attack Always comes after the target's attack but never misses",
+      "type": "Fighting",
+      "category": "Physical",
+      "power": 70,
+      "accuracy": "∞",
+      "pp": 10,
+      "effect": "User attacks last, but ignores Accuracy and Evasiveness."
+    },
+    "234": {
+      "id": 234,
+      "name": "MORNING SUN",
+      "description": "Allows HP to be restored by the morning sunlight In battle, half the user's max HP is restored",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 5,
+      "effect": "User recovers HP. Amount varies with the weather."
+    },
+    "235": {
+      "id": 235,
+      "name": "SYNTHESIS",
+      "description": "Allows HP to be restored by the sunlight In battle, half the user's max HP is restored",
+      "type": "Grass",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 5,
+      "effect": "User recovers HP. Amount varies with the weather."
+    },
+    "236": {
+      "id": 236,
+      "name": "MOONLIGHT",
+      "description": "Allows HP to be restored by the moonlight In battle, half the user's max HP is restored",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 5,
+      "effect": "User recovers HP. Amount varies with the weather."
+    },
+    "237": {
+      "id": 237,
+      "name": "HIDDEN POWER",
+      "description": "A peculiar move that changes type and power depending on the POKéMON using it",
+      "type": "Normal",
+      "category": "Special",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 15,
+      "effect": "Type and power depends on user's IVs."
+    },
+    "238": {
+      "id": 238,
+      "name": "CROSS CHOP",
+      "description": "A FIGHTING-type attack It is powerful and often lands a critical hit",
+      "type": "Fighting",
+      "category": "Physical",
+      "power": 100,
+      "accuracy": 80,
+      "pp": 5,
+      "effect": "High critical hit ratio."
+    },
+    "239": {
+      "id": 239,
+      "name": "TWISTER",
+      "description": "A DRAGON-type attack Has a  one-in-five chance of causing the target to flinch",
+      "type": "Dragon",
+      "category": "Special",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 20,
+      "effect": "May cause flinching. Hits Pokémon using Fly/Bounce with double power."
+    },
+    "240": {
+      "id": 240,
+      "name": "RAIN DANCE",
+      "description": "Summons rain for five turns While it is raining, the power of WATER-type moves increases",
+      "type": "Water",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 5,
+      "effect": "Makes it rain for 5 turns."
+    },
+    "241": {
+      "id": 241,
+      "name": "SUNNY DAY",
+      "description": "Makes the weather sunny for five turns When sunny, FIRE- type moves are more powerful",
+      "type": "Fire",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 5,
+      "effect": "Makes it sunny for 5 turns."
+    },
+    "242": {
+      "id": 242,
+      "name": "CRUNCH",
+      "description": "A DARK-type attack Has a one-in-five chance of reducing the target's SPCLDEF",
+      "type": "Dark",
+      "category": "Physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 15,
+      "effect": "May lower opponent's Defense."
+    },
+    "243": {
+      "id": 243,
+      "name": "MIRROR COAT",
+      "description": "The foe will receive double the damage the user sustained from a special attack High accuracy",
+      "type": "Psychic",
+      "category": "Special",
+      "power": "—",
+      "accuracy": 100,
+      "pp": 20,
+      "effect": "When hit by a Special Attack, user strikes back with 2x power."
+    },
+    "244": {
+      "id": 244,
+      "name": "PSYCH UP",
+      "description": "Self-hypnosis move that copies the foe's stats changes, then applies them to the user",
+      "type": "Normal",
+      "category": "Status",
+      "power": "—",
+      "accuracy": "—",
+      "pp": 10,
+      "effect": "Copies the opponent's stat changes."
+    },
+    "245": {
+      "id": 245,
+      "name": "EXTREMESPEED",
+      "description": "An attack that always strikes first It can be learned by only a few POKéMON",
+      "type": "Normal",
+      "category": "Physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 5,
+      "effect": "User attacks first."
+    },
+    "246": {
+      "id": 246,
+      "name": "ANCIENTPOWER",
+      "description": "A ROCK-type attack This prehistoric move may boost all of the user's stats",
+      "type": "Rock",
+      "category": "Special",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 5,
+      "effect": "May raise all user's stats at once."
+    },
+    "247": {
+      "id": 247,
+      "name": "SHADOW BALL",
+      "description": "A GHOST-type attack Has a  one-in-five chance of reducing the target's SPCLDEF",
+      "type": "Ghost",
+      "category": "Special",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 15,
+      "effect": "May lower opponent's Special Defense."
+    },
+    "248": {
+      "id": 248,
+      "name": "FUTURE SIGHT",
+      "description": "A special PSYCHIC-type attack It strikes the target two turns after it is used",
+      "type": "Psychic",
+      "category": "Special",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 10,
+      "effect": "Damage occurs 2 turns later."
+    },
+    "249": {
+      "id": 249,
+      "name": "ROCK SMASH",
+      "description": "A FIGHTING-type attack In the field, it can be used to shatter rocks to open new paths",
+      "type": "Fighting",
+      "category": "Physical",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 15,
+      "effect": "May lower opponent's Defense."
+    },
+    "250": {
+      "id": 250,
+      "name": "WHIRLPOOL",
+      "description": "Lasts two to five turns Foe becomes trapped in a vortex, making it impossible to switch",
+      "type": "Water",
+      "category": "Special",
+      "power": 35,
+      "accuracy": 85,
+      "pp": 15,
+      "effect": "Traps opponent, damaging them for 4-5 turns."
+    },
+    "251": {
+      "id": 251,
+      "name": "BEAT UP",
+      "description": "A DARK-type attack The user's fellow party POKéMON appear to pummel the target",
+      "type": "Dark",
+      "category": "Physical",
+      "power": "—",
+      "accuracy": 100,
+      "pp": 10,
+      "effect": "Each Pokémon in user's party attacks."
+    }
+  },
+  "pokemon": {
+    "1": {
+      "name": "BULBASAUR",
+      "type": [
+        "GRASS",
+        "POISON"
+      ]
+    },
+    "2": {
+      "name": "IVYSAUR",
+      "type": [
+        "GRASS",
+        "POISON"
+      ]
+    },
+    "3": {
+      "name": "VENUSAUR",
+      "type": [
+        "GRASS",
+        "POISON"
+      ]
+    },
+    "4": {
+      "name": "CHARMANDER",
+      "type": [
+        "FIRE"
+      ]
+    },
+    "5": {
+      "name": "CHARMELEON",
+      "type": [
+        "FIRE"
+      ]
+    },
+    "6": {
+      "name": "CHARIZARD",
+      "type": [
+        "FIRE",
+        "FLYING"
+      ]
+    },
+    "7": {
+      "name": "SQUIRTLE",
+      "type": [
+        "WATER"
+      ]
+    },
+    "8": {
+      "name": "WARTORTLE",
+      "type": [
+        "WATER"
+      ]
+    },
+    "9": {
+      "name": "BLASTOISE",
+      "type": [
+        "WATER"
+      ]
+    },
+    "10": {
+      "name": "CATERPIE",
+      "type": [
+        "BUG"
+      ]
+    },
+    "11": {
+      "name": "METAPOD",
+      "type": [
+        "BUG"
+      ]
+    },
+    "12": {
+      "name": "BUTTERFREE",
+      "type": [
+        "BUG",
+        "FLYING"
+      ]
+    },
+    "13": {
+      "name": "WEEDLE",
+      "type": [
+        "BUG",
+        "POISON"
+      ]
+    },
+    "14": {
+      "name": "KAKUNA",
+      "type": [
+        "BUG",
+        "POISON"
+      ]
+    },
+    "15": {
+      "name": "BEEDRILL",
+      "type": [
+        "BUG",
+        "POISON"
+      ]
+    },
+    "16": {
+      "name": "PIDGEY",
+      "type": [
+        "NORMAL",
+        "FLYING"
+      ]
+    },
+    "17": {
+      "name": "PIDGEOTTO",
+      "type": [
+        "NORMAL",
+        "FLYING"
+      ]
+    },
+    "18": {
+      "name": "PIDGEOT",
+      "type": [
+        "NORMAL",
+        "FLYING"
+      ]
+    },
+    "19": {
+      "name": "RATTATA",
+      "type": [
+        "NORMAL"
+      ]
+    },
+    "20": {
+      "name": "RATICATE",
+      "type": [
+        "NORMAL"
+      ]
+    },
+    "21": {
+      "name": "SPEAROW",
+      "type": [
+        "NORMAL",
+        "FLYING"
+      ]
+    },
+    "22": {
+      "name": "FEAROW",
+      "type": [
+        "NORMAL",
+        "FLYING"
+      ]
+    },
+    "23": {
+      "name": "EKANS",
+      "type": [
+        "POISON"
+      ]
+    },
+    "24": {
+      "name": "ARBOK",
+      "type": [
+        "POISON"
+      ]
+    },
+    "25": {
+      "name": "PIKACHU",
+      "type": [
+        "ELECTRIC"
+      ]
+    },
+    "26": {
+      "name": "RAICHU",
+      "type": [
+        "ELECTRIC"
+      ]
+    },
+    "27": {
+      "name": "SANDSHREW",
+      "type": [
+        "GROUND"
+      ]
+    },
+    "28": {
+      "name": "SANDSLASH",
+      "type": [
+        "GROUND"
+      ]
+    },
+    "29": {
+      "name": "NIDORAN-F",
+      "type": [
+        "POISON"
+      ]
+    },
+    "30": {
+      "name": "NIDORINA",
+      "type": [
+        "POISON"
+      ]
+    },
+    "31": {
+      "name": "NIDOQUEEN",
+      "type": [
+        "POISON",
+        "GROUND"
+      ]
+    },
+    "32": {
+      "name": "NIDORAN-M",
+      "type": [
+        "POISON"
+      ]
+    },
+    "33": {
+      "name": "NIDORINO",
+      "type": [
+        "POISON"
+      ]
+    },
+    "34": {
+      "name": "NIDOKING",
+      "type": [
+        "POISON",
+        "GROUND"
+      ]
+    },
+    "35": {
+      "name": "CLENormal",
+      "type": [
+        "NORMAL"
+      ]
+    },
+    "36": {
+      "name": "CLEFABLE",
+      "type": [
+        "NORMAL"
+      ]
+    },
+    "37": {
+      "name": "VULPIX",
+      "type": [
+        "FIRE"
+      ]
+    },
+    "38": {
+      "name": "NINETALES",
+      "type": [
+        "FIRE"
+      ]
+    },
+    "39": {
+      "name": "JIGGLYPUFF",
+      "type": [
+        "NORMAL"
+      ]
+    },
+    "40": {
+      "name": "WIGGLYTUFF",
+      "type": [
+        "NORMAL"
+      ]
+    },
+    "41": {
+      "name": "ZUBAT",
+      "type": [
+        "POISON",
+        "FLYING"
+      ]
+    },
+    "42": {
+      "name": "GOLBAT",
+      "type": [
+        "POISON",
+        "FLYING"
+      ]
+    },
+    "43": {
+      "name": "ODDISH",
+      "type": [
+        "GRASS",
+        "POISON"
+      ]
+    },
+    "44": {
+      "name": "GLOOM",
+      "type": [
+        "GRASS",
+        "POISON"
+      ]
+    },
+    "45": {
+      "name": "VILEPLUME",
+      "type": [
+        "GRASS",
+        "POISON"
+      ]
+    },
+    "46": {
+      "name": "PARAS",
+      "type": [
+        "BUG",
+        "GRASS"
+      ]
+    },
+    "47": {
+      "name": "PARASECT",
+      "type": [
+        "BUG",
+        "GRASS"
+      ]
+    },
+    "48": {
+      "name": "VENONAT",
+      "type": [
+        "BUG",
+        "POISON"
+      ]
+    },
+    "49": {
+      "name": "VENOMOTH",
+      "type": [
+        "BUG",
+        "POISON"
+      ]
+    },
+    "50": {
+      "name": "DIGLETT",
+      "type": [
+        "GROUND"
+      ]
+    },
+    "51": {
+      "name": "DUGTRIO",
+      "type": [
+        "GROUND"
+      ]
+    },
+    "52": {
+      "name": "MEOWTH",
+      "type": [
+        "NORMAL"
+      ]
+    },
+    "53": {
+      "name": "PERSIAN",
+      "type": [
+        "NORMAL"
+      ]
+    },
+    "54": {
+      "name": "PSYDUCK",
+      "type": [
+        "WATER"
+      ]
+    },
+    "55": {
+      "name": "GOLDUCK",
+      "type": [
+        "WATER"
+      ]
+    },
+    "56": {
+      "name": "MANKEY",
+      "type": [
+        "FIGHTING"
+      ]
+    },
+    "57": {
+      "name": "PRIMEAPE",
+      "type": [
+        "FIGHTING"
+      ]
+    },
+    "58": {
+      "name": "GROWLITHE",
+      "type": [
+        "FIRE"
+      ]
+    },
+    "59": {
+      "name": "ARCANINE",
+      "type": [
+        "FIRE"
+      ]
+    },
+    "60": {
+      "name": "POLIWAG",
+      "type": [
+        "WATER"
+      ]
+    },
+    "61": {
+      "name": "POLIWHIRL",
+      "type": [
+        "WATER"
+      ]
+    },
+    "62": {
+      "name": "POLIWRATH",
+      "type": [
+        "WATER",
+        "FIGHTING"
+      ]
+    },
+    "63": {
+      "name": "ABRA",
+      "type": [
+        "PSYCHIC"
+      ]
+    },
+    "64": {
+      "name": "KADABRA",
+      "type": [
+        "PSYCHIC"
+      ]
+    },
+    "65": {
+      "name": "ALAKAZAM",
+      "type": [
+        "PSYCHIC"
+      ]
+    },
+    "66": {
+      "name": "MACHOP",
+      "type": [
+        "FIGHTING"
+      ]
+    },
+    "67": {
+      "name": "MACHOKE",
+      "type": [
+        "FIGHTING"
+      ]
+    },
+    "68": {
+      "name": "MACHAMP",
+      "type": [
+        "FIGHTING"
+      ]
+    },
+    "69": {
+      "name": "BELLSPROUT",
+      "type": [
+        "GRASS",
+        "POISON"
+      ]
+    },
+    "70": {
+      "name": "WEEPINBELL",
+      "type": [
+        "GRASS",
+        "POISON"
+      ]
+    },
+    "71": {
+      "name": "VICTREEBEL",
+      "type": [
+        "GRASS",
+        "POISON"
+      ]
+    },
+    "72": {
+      "name": "TENTACOOL",
+      "type": [
+        "WATER",
+        "POISON"
+      ]
+    },
+    "73": {
+      "name": "TENTACRUEL",
+      "type": [
+        "WATER",
+        "POISON"
+      ]
+    },
+    "74": {
+      "name": "GEODUDE",
+      "type": [
+        "ROCK",
+        "GROUND"
+      ]
+    },
+    "75": {
+      "name": "GRAVELER",
+      "type": [
+        "ROCK",
+        "GROUND"
+      ]
+    },
+    "76": {
+      "name": "GOLEM",
+      "type": [
+        "ROCK",
+        "GROUND"
+      ]
+    },
+    "77": {
+      "name": "PONYTA",
+      "type": [
+        "FIRE"
+      ]
+    },
+    "78": {
+      "name": "RAPIDASH",
+      "type": [
+        "FIRE"
+      ]
+    },
+    "79": {
+      "name": "SLOWPOKE",
+      "type": [
+        "WATER",
+        "PSYCHIC"
+      ]
+    },
+    "80": {
+      "name": "SLOWBRO",
+      "type": [
+        "WATER",
+        "PSYCHIC"
+      ]
+    },
+    "81": {
+      "name": "MAGNEMITE",
+      "type": [
+        "ELECTRIC",
+        "STEEL"
+      ]
+    },
+    "82": {
+      "name": "MAGNETON",
+      "type": [
+        "ELECTRIC",
+        "STEEL"
+      ]
+    },
+    "83": {
+      "name": "FARFETCHD",
+      "type": [
+        "NORMAL",
+        "FLYING"
+      ]
+    },
+    "84": {
+      "name": "DODUO",
+      "type": [
+        "NORMAL",
+        "FLYING"
+      ]
+    },
+    "85": {
+      "name": "DODRIO",
+      "type": [
+        "NORMAL",
+        "FLYING"
+      ]
+    },
+    "86": {
+      "name": "SEEL",
+      "type": [
+        "WATER"
+      ]
+    },
+    "87": {
+      "name": "DEWGONG",
+      "type": [
+        "WATER",
+        "ICE"
+      ]
+    },
+    "88": {
+      "name": "GRIMER",
+      "type": [
+        "POISON"
+      ]
+    },
+    "89": {
+      "name": "MUK",
+      "type": [
+        "POISON"
+      ]
+    },
+    "90": {
+      "name": "SHELLDER",
+      "type": [
+        "WATER"
+      ]
+    },
+    "91": {
+      "name": "CLOYSTER",
+      "type": [
+        "WATER",
+        "ICE"
+      ]
+    },
+    "92": {
+      "name": "GASTLY",
+      "type": [
+        "GHOST",
+        "POISON"
+      ]
+    },
+    "93": {
+      "name": "HAUNTER",
+      "type": [
+        "GHOST",
+        "POISON"
+      ]
+    },
+    "94": {
+      "name": "GENGAR",
+      "type": [
+        "GHOST",
+        "POISON"
+      ]
+    },
+    "95": {
+      "name": "ONIX",
+      "type": [
+        "ROCK",
+        "GROUND"
+      ]
+    },
+    "96": {
+      "name": "DROWZEE",
+      "type": [
+        "PSYCHIC"
+      ]
+    },
+    "97": {
+      "name": "HYPNO",
+      "type": [
+        "PSYCHIC"
+      ]
+    },
+    "98": {
+      "name": "KRABBY",
+      "type": [
+        "WATER"
+      ]
+    },
+    "99": {
+      "name": "KINGLER",
+      "type": [
+        "WATER"
+      ]
+    },
+    "100": {
+      "name": "VOLTORB",
+      "type": [
+        "ELECTRIC"
+      ]
+    },
+    "101": {
+      "name": "ELECTRODE",
+      "type": [
+        "ELECTRIC"
+      ]
+    },
+    "102": {
+      "name": "EXEGGCUTE",
+      "type": [
+        "GRASS",
+        "PSYCHIC"
+      ]
+    },
+    "103": {
+      "name": "EXEGGUTOR",
+      "type": [
+        "GRASS",
+        "PSYCHIC"
+      ]
+    },
+    "104": {
+      "name": "CUBONE",
+      "type": [
+        "GROUND"
+      ]
+    },
+    "105": {
+      "name": "MAROWAK",
+      "type": [
+        "GROUND"
+      ]
+    },
+    "106": {
+      "name": "HITMONLEE",
+      "type": [
+        "FIGHTING"
+      ]
+    },
+    "107": {
+      "name": "HITMONCHAN",
+      "type": [
+        "FIGHTING"
+      ]
+    },
+    "108": {
+      "name": "LICKITUNG",
+      "type": [
+        "NORMAL"
+      ]
+    },
+    "109": {
+      "name": "KOFFING",
+      "type": [
+        "POISON"
+      ]
+    },
+    "110": {
+      "name": "WEEZING",
+      "type": [
+        "POISON"
+      ]
+    },
+    "111": {
+      "name": "RHYHORN",
+      "type": [
+        "GROUND",
+        "ROCK"
+      ]
+    },
+    "112": {
+      "name": "RHYDON",
+      "type": [
+        "GROUND",
+        "ROCK"
+      ]
+    },
+    "113": {
+      "name": "CHANSEY",
+      "type": [
+        "NORMAL"
+      ]
+    },
+    "114": {
+      "name": "TANGELA",
+      "type": [
+        "GRASS"
+      ]
+    },
+    "115": {
+      "name": "KANGASKHAN",
+      "type": [
+        "NORMAL"
+      ]
+    },
+    "116": {
+      "name": "HORSEA",
+      "type": [
+        "WATER"
+      ]
+    },
+    "117": {
+      "name": "SEADRA",
+      "type": [
+        "WATER"
+      ]
+    },
+    "118": {
+      "name": "GOLDEEN",
+      "type": [
+        "WATER"
+      ]
+    },
+    "119": {
+      "name": "SEAKING",
+      "type": [
+        "WATER"
+      ]
+    },
+    "120": {
+      "name": "STARYU",
+      "type": [
+        "WATER"
+      ]
+    },
+    "121": {
+      "name": "STARMIE",
+      "type": [
+        "WATER",
+        "PSYCHIC"
+      ]
+    },
+    "122": {
+      "name": "MR-MIME",
+      "type": [
+        "PSYCHIC"
+      ]
+    },
+    "123": {
+      "name": "SCYTHER",
+      "type": [
+        "BUG",
+        "FLYING"
+      ]
+    },
+    "124": {
+      "name": "JYNX",
+      "type": [
+        "ICE",
+        "PSYCHIC"
+      ]
+    },
+    "125": {
+      "name": "ELECTABUZZ",
+      "type": [
+        "ELECTRIC"
+      ]
+    },
+    "126": {
+      "name": "MAGMAR",
+      "type": [
+        "FIRE"
+      ]
+    },
+    "127": {
+      "name": "PINSIR",
+      "type": [
+        "BUG"
+      ]
+    },
+    "128": {
+      "name": "TAUROS",
+      "type": [
+        "NORMAL"
+      ]
+    },
+    "129": {
+      "name": "MAGIKARP",
+      "type": [
+        "WATER"
+      ]
+    },
+    "130": {
+      "name": "GYARADOS",
+      "type": [
+        "WATER",
+        "FLYING"
+      ]
+    },
+    "131": {
+      "name": "LAPRAS",
+      "type": [
+        "WATER",
+        "ICE"
+      ]
+    },
+    "132": {
+      "name": "DITTO",
+      "type": [
+        "NORMAL"
+      ]
+    },
+    "133": {
+      "name": "EEVEE",
+      "type": [
+        "NORMAL"
+      ]
+    },
+    "134": {
+      "name": "VAPOREON",
+      "type": [
+        "WATER"
+      ]
+    },
+    "135": {
+      "name": "JOLTEON",
+      "type": [
+        "ELECTRIC"
+      ]
+    },
+    "136": {
+      "name": "FLAREON",
+      "type": [
+        "FIRE"
+      ]
+    },
+    "137": {
+      "name": "PORYGON",
+      "type": [
+        "NORMAL"
+      ]
+    },
+    "138": {
+      "name": "OMANYTE",
+      "type": [
+        "ROCK",
+        "WATER"
+      ]
+    },
+    "139": {
+      "name": "OMASTAR",
+      "type": [
+        "ROCK",
+        "WATER"
+      ]
+    },
+    "140": {
+      "name": "KABUTO",
+      "type": [
+        "ROCK",
+        "WATER"
+      ]
+    },
+    "141": {
+      "name": "KABUTOPS",
+      "type": [
+        "ROCK",
+        "WATER"
+      ]
+    },
+    "142": {
+      "name": "AERODACTYL",
+      "type": [
+        "ROCK",
+        "FLYING"
+      ]
+    },
+    "143": {
+      "name": "SNORLAX",
+      "type": [
+        "NORMAL"
+      ]
+    },
+    "144": {
+      "name": "ARTICUNO",
+      "type": [
+        "ICE",
+        "FLYING"
+      ]
+    },
+    "145": {
+      "name": "ZAPDOS",
+      "type": [
+        "ELECTRIC",
+        "FLYING"
+      ]
+    },
+    "146": {
+      "name": "MOLTRES",
+      "type": [
+        "FIRE",
+        "FLYING"
+      ]
+    },
+    "147": {
+      "name": "DRATINI",
+      "type": [
+        "DRAGON"
+      ]
+    },
+    "148": {
+      "name": "DRAGONAIR",
+      "type": [
+        "DRAGON"
+      ]
+    },
+    "149": {
+      "name": "DRAGONITE",
+      "type": [
+        "DRAGON",
+        "FLYING"
+      ]
+    },
+    "150": {
+      "name": "MEWTWO",
+      "type": [
+        "PSYCHIC"
+      ]
+    },
+    "151": {
+      "name": "MEW",
+      "type": [
+        "PSYCHIC"
+      ]
+    },
+    "152": {
+      "name": "CHIKORITA",
+      "type": [
+        "GRASS"
+      ]
+    },
+    "153": {
+      "name": "BAYLEEF",
+      "type": [
+        "GRASS"
+      ]
+    },
+    "154": {
+      "name": "MEGANIUM",
+      "type": [
+        "GRASS"
+      ]
+    },
+    "155": {
+      "name": "CYNDAQUIL",
+      "type": [
+        "FIRE"
+      ]
+    },
+    "156": {
+      "name": "QUILAVA",
+      "type": [
+        "FIRE"
+      ]
+    },
+    "157": {
+      "name": "TYPHLOSION",
+      "type": [
+        "FIRE"
+      ]
+    },
+    "158": {
+      "name": "TOTODILE",
+      "type": [
+        "WATER"
+      ]
+    },
+    "159": {
+      "name": "CROCONAW",
+      "type": [
+        "WATER"
+      ]
+    },
+    "160": {
+      "name": "FERALIGATR",
+      "type": [
+        "WATER"
+      ]
+    },
+    "161": {
+      "name": "SENTRET",
+      "type": [
+        "NORMAL"
+      ]
+    },
+    "162": {
+      "name": "FURRET",
+      "type": [
+        "NORMAL"
+      ]
+    },
+    "163": {
+      "name": "HOOTHOOT",
+      "type": [
+        "NORMAL",
+        "FLYING"
+      ]
+    },
+    "164": {
+      "name": "NOCTOWL",
+      "type": [
+        "NORMAL",
+        "FLYING"
+      ]
+    },
+    "165": {
+      "name": "LEDYBA",
+      "type": [
+        "BUG",
+        "FLYING"
+      ]
+    },
+    "166": {
+      "name": "LEDIAN",
+      "type": [
+        "BUG",
+        "FLYING"
+      ]
+    },
+    "167": {
+      "name": "SPINARAK",
+      "type": [
+        "BUG",
+        "POISON"
+      ]
+    },
+    "168": {
+      "name": "ARIADOS",
+      "type": [
+        "BUG",
+        "POISON"
+      ]
+    },
+    "169": {
+      "name": "CROBAT",
+      "type": [
+        "POISON",
+        "FLYING"
+      ]
+    },
+    "170": {
+      "name": "CHINCHOU",
+      "type": [
+        "WATER",
+        "ELECTRIC"
+      ]
+    },
+    "171": {
+      "name": "LANTURN",
+      "type": [
+        "WATER",
+        "ELECTRIC"
+      ]
+    },
+    "172": {
+      "name": "PICHU",
+      "type": [
+        "ELECTRIC"
+      ]
+    },
+    "173": {
+      "name": "CLEFFA",
+      "type": [
+        "NORMAL"
+      ]
+    },
+    "174": {
+      "name": "IGGLYBUFF",
+      "type": [
+        "NORMAL"
+      ]
+    },
+    "175": {
+      "name": "TOGEPI",
+      "type": [
+        "NORMAL"
+      ]
+    },
+    "176": {
+      "name": "TOGETIC",
+      "type": [
+        "NORMAL",
+        "FLYING"
+      ]
+    },
+    "177": {
+      "name": "NATU",
+      "type": [
+        "PSYCHIC",
+        "FLYING"
+      ]
+    },
+    "178": {
+      "name": "XATU",
+      "type": [
+        "PSYCHIC",
+        "FLYING"
+      ]
+    },
+    "179": {
+      "name": "MAREEP",
+      "type": [
+        "ELECTRIC"
+      ]
+    },
+    "180": {
+      "name": "FLAAFFY",
+      "type": [
+        "ELECTRIC"
+      ]
+    },
+    "181": {
+      "name": "AMPHAROS",
+      "type": [
+        "ELECTRIC"
+      ]
+    },
+    "182": {
+      "name": "BELLOSSOM",
+      "type": [
+        "GRASS"
+      ]
+    },
+    "183": {
+      "name": "MARILL",
+      "type": [
+        "WATER"
+      ]
+    },
+    "184": {
+      "name": "AZUMARILL",
+      "type": [
+        "WATER"
+      ]
+    },
+    "185": {
+      "name": "SUDOWOODO",
+      "type": [
+        "ROCK"
+      ]
+    },
+    "186": {
+      "name": "POLITOED",
+      "type": [
+        "WATER"
+      ]
+    },
+    "187": {
+      "name": "HOPPIP",
+      "type": [
+        "GRASS",
+        "FLYING"
+      ]
+    },
+    "188": {
+      "name": "SKIPLOOM",
+      "type": [
+        "GRASS",
+        "FLYING"
+      ]
+    },
+    "189": {
+      "name": "JUMPLUFF",
+      "type": [
+        "GRASS",
+        "FLYING"
+      ]
+    },
+    "190": {
+      "name": "AIPOM",
+      "type": [
+        "NORMAL"
+      ]
+    },
+    "191": {
+      "name": "SUNKERN",
+      "type": [
+        "GRASS"
+      ]
+    },
+    "192": {
+      "name": "SUNFLORA",
+      "type": [
+        "GRASS"
+      ]
+    },
+    "193": {
+      "name": "YANMA",
+      "type": [
+        "BUG",
+        "FLYING"
+      ]
+    },
+    "194": {
+      "name": "WOOPER",
+      "type": [
+        "WATER",
+        "GROUND"
+      ]
+    },
+    "195": {
+      "name": "QUAGSIRE",
+      "type": [
+        "WATER",
+        "GROUND"
+      ]
+    },
+    "196": {
+      "name": "ESPEON",
+      "type": [
+        "PSYCHIC"
+      ]
+    },
+    "197": {
+      "name": "UMBREON",
+      "type": [
+        "DARK"
+      ]
+    },
+    "198": {
+      "name": "MURKROW",
+      "type": [
+        "DARK",
+        "FLYING"
+      ]
+    },
+    "199": {
+      "name": "SLOWKING",
+      "type": [
+        "WATER",
+        "PSYCHIC"
+      ]
+    },
+    "200": {
+      "name": "MISDREAVUS",
+      "type": [
+        "GHOST"
+      ]
+    },
+    "201": {
+      "name": "UNOWN",
+      "type": [
+        "PSYCHIC"
+      ]
+    },
+    "202": {
+      "name": "WOBBUFFET",
+      "type": [
+        "PSYCHIC"
+      ]
+    },
+    "203": {
+      "name": "GIRAFARIG",
+      "type": [
+        "NORMAL",
+        "PSYCHIC"
+      ]
+    },
+    "204": {
+      "name": "PINECO",
+      "type": [
+        "BUG"
+      ]
+    },
+    "205": {
+      "name": "FORRETRESS",
+      "type": [
+        "BUG",
+        "STEEL"
+      ]
+    },
+    "206": {
+      "name": "DUNSPARCE",
+      "type": [
+        "NORMAL"
+      ]
+    },
+    "207": {
+      "name": "GLIGAR",
+      "type": [
+        "GROUND",
+        "FLYING"
+      ]
+    },
+    "208": {
+      "name": "STEELIX",
+      "type": [
+        "STEEL",
+        "GROUND"
+      ]
+    },
+    "209": {
+      "name": "SNUBBULL",
+      "type": [
+        "NORMAL"
+      ]
+    },
+    "210": {
+      "name": "GRANBULL",
+      "type": [
+        "NORMAL"
+      ]
+    },
+    "211": {
+      "name": "QWILFISH",
+      "type": [
+        "WATER",
+        "POISON"
+      ]
+    },
+    "212": {
+      "name": "SCIZOR",
+      "type": [
+        "BUG",
+        "STEEL"
+      ]
+    },
+    "213": {
+      "name": "SHUCKLE",
+      "type": [
+        "BUG",
+        "ROCK"
+      ]
+    },
+    "214": {
+      "name": "HERACROSS",
+      "type": [
+        "BUG",
+        "FIGHTING"
+      ]
+    },
+    "215": {
+      "name": "SNEASEL",
+      "type": [
+        "DARK",
+        "ICE"
+      ]
+    },
+    "216": {
+      "name": "TEDDIURSA",
+      "type": [
+        "NORMAL"
+      ]
+    },
+    "217": {
+      "name": "URSARING",
+      "type": [
+        "NORMAL"
+      ]
+    },
+    "218": {
+      "name": "SLUGMA",
+      "type": [
+        "FIRE"
+      ]
+    },
+    "219": {
+      "name": "MAGCARGO",
+      "type": [
+        "FIRE",
+        "ROCK"
+      ]
+    },
+    "220": {
+      "name": "SWINUB",
+      "type": [
+        "ICE",
+        "GROUND"
+      ]
+    },
+    "221": {
+      "name": "PILOSWINE",
+      "type": [
+        "ICE",
+        "GROUND"
+      ]
+    },
+    "222": {
+      "name": "CORSOLA",
+      "type": [
+        "WATER",
+        "ROCK"
+      ]
+    },
+    "223": {
+      "name": "REMORAID",
+      "type": [
+        "WATER"
+      ]
+    },
+    "224": {
+      "name": "OCTILLERY",
+      "type": [
+        "WATER"
+      ]
+    },
+    "225": {
+      "name": "DELIBIRD",
+      "type": [
+        "ICE",
+        "FLYING"
+      ]
+    },
+    "226": {
+      "name": "MANTINE",
+      "type": [
+        "WATER",
+        "FLYING"
+      ]
+    },
+    "227": {
+      "name": "SKARMORY",
+      "type": [
+        "STEEL",
+        "FLYING"
+      ]
+    },
+    "228": {
+      "name": "HOUNDOUR",
+      "type": [
+        "DARK",
+        "FIRE"
+      ]
+    },
+    "229": {
+      "name": "HOUNDOOM",
+      "type": [
+        "DARK",
+        "FIRE"
+      ]
+    },
+    "230": {
+      "name": "KINGDRA",
+      "type": [
+        "WATER",
+        "DRAGON"
+      ]
+    },
+    "231": {
+      "name": "PHANPY",
+      "type": [
+        "GROUND"
+      ]
+    },
+    "232": {
+      "name": "DONPHAN",
+      "type": [
+        "GROUND"
+      ]
+    },
+    "233": {
+      "name": "PORYGON2",
+      "type": [
+        "NORMAL"
+      ]
+    },
+    "234": {
+      "name": "STANTLER",
+      "type": [
+        "NORMAL"
+      ]
+    },
+    "235": {
+      "name": "SMEARGLE",
+      "type": [
+        "NORMAL"
+      ]
+    },
+    "236": {
+      "name": "TYROGUE",
+      "type": [
+        "FIGHTING"
+      ]
+    },
+    "237": {
+      "name": "HITMONTOP",
+      "type": [
+        "FIGHTING"
+      ]
+    },
+    "238": {
+      "name": "SMOOCHUM",
+      "type": [
+        "ICE",
+        "PSYCHIC"
+      ]
+    },
+    "239": {
+      "name": "ELEKID",
+      "type": [
+        "ELECTRIC"
+      ]
+    },
+    "240": {
+      "name": "MAGBY",
+      "type": [
+        "FIRE"
+      ]
+    },
+    "241": {
+      "name": "MILTANK",
+      "type": [
+        "NORMAL"
+      ]
+    },
+    "242": {
+      "name": "BLISSEY",
+      "type": [
+        "NORMAL"
+      ]
+    },
+    "243": {
+      "name": "RAIKOU",
+      "type": [
+        "ELECTRIC"
+      ]
+    },
+    "244": {
+      "name": "ENTEI",
+      "type": [
+        "FIRE"
+      ]
+    },
+    "245": {
+      "name": "SUICUNE",
+      "type": [
+        "WATER"
+      ]
+    },
+    "246": {
+      "name": "LARVITAR",
+      "type": [
+        "ROCK",
+        "GROUND"
+      ]
+    },
+    "247": {
+      "name": "PUPITAR",
+      "type": [
+        "ROCK",
+        "GROUND"
+      ]
+    },
+    "248": {
+      "name": "TYRANITAR",
+      "type": [
+        "ROCK",
+        "DARK"
+      ]
+    },
+    "249": {
+      "name": "LUGIA",
+      "type": [
+        "PSYCHIC",
+        "FLYING"
+      ]
+    },
+    "250": {
+      "name": "HO-OH",
+      "type": [
+        "FIRE",
+        "FLYING"
+      ]
+    },
+    "251": {
+      "name": "CELEBI",
+      "type": [
+        "PSYCHIC",
+        "GRASS"
+      ]
+    }
+  }
+}

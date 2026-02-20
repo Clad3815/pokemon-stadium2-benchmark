@@ -1,0 +1,11 @@
+emulator/
+!emulator/Project64-Win32-Dev-4.0.0-6555-9034bc6/Scripts/
+server/node_modules/
+frontend/node_modules/
+frontend/dist/
+server/.env
+scripts/*.z64
+server/stats/*.json
+server/history_*.json
+server/api_history_*.json
+server/last_history_*.json

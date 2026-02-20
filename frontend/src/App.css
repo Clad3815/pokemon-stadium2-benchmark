@@ -1,0 +1,1243 @@
+/* Import de la police GameBoy */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* Animations simplifiées */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.3s ease-out forwards;
+}
+
+/* Transition personnalisée pour la barre de vie - conservée car fonctionnelle */
+.transition-width {
+  transition-property: width;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+}
+
+/* Pokémon-styled VS badge */
+.vs-badge {
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.7), rgba(239, 68, 68, 0.7));
+  color: white;
+  font-weight: 700;
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  position: relative;
+  overflow: hidden;
+}
+
+.vs-badge::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(59, 130, 246, 0.1), rgba(239, 68, 68, 0.1));
+  animation: gradient-shift 2s infinite;
+}
+
+/* Type badge styling */
+.type-badge {
+  padding: 0.125rem 0.5rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.025em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Action type indicator styling */
+.action-type-indicator {
+  animation: slideInRight 0.3s ease-out;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+  overflow: hidden;
+}
+
+.action-type-indicator::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0) 100%);
+  z-index: 1;
+  transform: translateX(-100%);
+  animation: shimmer 2s infinite;
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(-10px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.animate-shimmer {
+  animation: shimmer 2s infinite;
+}
+
+/* Button styling - simplifié */
+.button-primary {
+  background-color: rgb(var(--color-primary));
+  color: rgb(var(--text-primary));
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  transition: background-color var(--transition-normal) ease;
+  border: none;
+}
+
+.button-primary:hover {
+  background-color: rgb(var(--color-primary-dark));
+}
+
+.button-primary:active {
+  transform: translateY(1px);
+}
+
+/* Player badge styling - simplifié */
+.player-badge {
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.player-badge-blue {
+  background-color: rgb(var(--color-primary));
+  color: rgb(var(--text-primary));
+}
+
+.player-badge-red {
+  background-color: rgb(var(--color-secondary));
+  color: rgb(var(--text-primary));
+}
+
+/* Pokeball avatar - simplifié et harmonisé */
+.pokeball-avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: white;
+  position: relative;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  flex-shrink: 0;
+  border: 2px solid #333;
+  overflow: hidden;
+}
+
+.pokeball-avatar::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background-color: #ff0000;
+  z-index: 1;
+}
+
+.pokeball-avatar::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #333;
+  z-index: 2;
+}
+
+.pokeball-avatar .center-circle {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: white;
+  border: 2px solid #333;
+  z-index: 3;
+}
+
+.pokeball-avatar.blue::before {
+  background-color: #1d4ed8;
+}
+
+.pokeball-avatar.red::before {
+  background-color: #dc2626;
+}
+
+/* Classes pour coloration spécifique - harmonisées */
+.pokeball-avatar.blue {
+  background-color: rgb(var(--color-primary));
+}
+
+.pokeball-avatar.red {
+  background-color: rgb(var(--color-secondary));
+}
+
+/* Scrollbar styling */
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+  overflow-y: auto;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+  /* Chrome, Safari, Opera */
+}
+
+/* Custom scrollbar styling */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  /* Firefox */
+  scrollbar-color: rgba(59, 130, 246, 0.3) rgba(15, 23, 42, 0.2);
+  /* Firefox */
+  overflow-y: auto;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+  /* Width of the scrollbar */
+  height: 4px;
+  /* Height of the scrollbar for horizontal scroll */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.1);
+  /* Dark subtle track */
+  border-radius: 8px;
+  margin: 2px 0;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(59, 130, 246, 0.3);
+  /* Subtle blue color */
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(59, 130, 246, 0.5);
+  /* Slightly brighter on hover */
+}
+
+.custom-scrollbar::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+/* App container */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: rgb(var(--color-neutral-900));
+  color: rgb(var(--text-primary));
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/* Styles de la barre de défilement - harmonisés */
+.scrollbar-thin::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: rgba(var(--color-neutral-800), 0.2);
+  border-radius: 10px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: rgba(var(--color-primary), 0.3);
+  border-radius: 10px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  background: rgba(var(--color-primary), 0.5);
+}
+
+/* Classes spécifiques pour les joueurs - harmonisées */
+.player1-log .scrollbar-thin::-webkit-scrollbar-thumb {
+  background: rgba(var(--color-primary), 0.3);
+}
+
+.player2-log .scrollbar-thin::-webkit-scrollbar-thumb {
+  background: rgba(var(--color-secondary), 0.3);
+}
+
+
+/* Stats page - Tab styling - harmonisé */
+.tab-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: rgba(var(--text-primary), 0.7);
+  background-color: rgba(var(--color-neutral-800), 0.3);
+  transition: background-color var(--transition-normal) ease;
+  border: 1px solid rgba(var(--text-primary), 0.05);
+}
+
+.tab-button:hover {
+  background-color: rgba(var(--color-primary), 0.15);
+  color: rgb(var(--text-primary));
+}
+
+.tab-button.active {
+  background-color: rgb(var(--color-primary));
+  color: rgb(var(--text-primary));
+  border: 1px solid rgba(var(--color-primary-light), 0.3);
+}
+
+/* Stats cards styling - harmonisé */
+.stat-item-glass {
+  background: rgba(var(--color-neutral-900), 0.3);
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  text-align: center;
+  border: 1px solid rgba(var(--text-primary), 0.08);
+  backdrop-filter: blur(12px);
+  min-width: 150px;
+}
+
+/* Removing hover effect that causes layout shifts */
+.stat-item-glass:hover {
+  /* No background color change on hover */
+}
+
+/* Title styling - simplifié */
+.title-shadow {
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2),
+    0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Media queries pour les appareils mobiles */
+@media (max-width: 768px) {
+  .tab-button {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.75rem;
+  }
+}
+
+/* Styles spécifiques pour StatsPage */
+
+/* Cartes pour StatsPage */
+.stats-card {
+  border-radius: 0.75rem;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.stats-card-header {
+  font-weight: bold;
+  font-size: 1.125rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.stats-card-header-icon {
+  margin-right: 0.5rem;
+}
+
+.stats-card-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Couleurs thématiques pour les cartes */
+.theme-primary {
+  background-color: rgba(var(--color-primary), 0.2);
+  border: 1px solid rgba(var(--color-primary), 0.3);
+  padding: 1rem;
+  border-radius: 0.75rem;
+}
+
+.theme-secondary {
+  background-color: rgba(var(--color-secondary), 0.2);
+  border: 1px solid rgba(var(--color-secondary), 0.3);
+  padding: 1rem;
+  border-radius: 0.75rem;
+}
+
+.theme-neutral {
+  background-color: rgba(var(--color-neutral-800), 0.3);
+  border: 1px solid rgba(var(--color-neutral-700), 0.3);
+  padding: 1rem;
+  border-radius: 0.75rem;
+}
+
+/* Style pour tableau */
+.stats-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.stats-table th {
+  background-color: rgba(var(--color-neutral-900), 0.5);
+  color: rgb(var(--text-secondary));
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  padding: 0.75rem 1rem;
+  text-align: left;
+}
+
+.stats-table td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid rgba(var(--border-light), 0.1);
+}
+
+.stats-table tr:hover {
+  background-color: rgba(var(--color-neutral-800), 0.2);
+}
+
+/* Styles pour les tooltips de graphiques */
+.chart-tooltip {
+  background: rgba(var(--color-neutral-900), 0.9);
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid rgba(var(--text-primary), 0.1);
+}
+
+/* Styles pour switch/toggle */
+.toggle-button-group {
+  display: flex;
+  background-color: rgba(var(--color-neutral-800), 0.4);
+  border-radius: 0.375rem;
+  overflow: hidden;
+}
+
+.toggle-button {
+  padding: 0.25rem 0.75rem;
+  font-size: 0.75rem;
+  border: none;
+  background: transparent;
+  color: rgb(var(--text-secondary));
+  cursor: pointer;
+  transition: all var(--transition-normal) ease;
+}
+
+.toggle-button.active {
+  background-color: rgb(var(--color-primary));
+  color: rgb(var(--text-primary));
+}
+
+/* Styles pour les valeurs mises en évidence */
+.highlight-value {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.highlight-value-primary {
+  color: rgb(var(--color-primary-light));
+}
+
+.highlight-value-secondary {
+  color: rgb(var(--color-secondary-light));
+}
+
+.highlight-value-success {
+  color: rgb(var(--color-success));
+}
+
+.highlight-value-warning {
+  color: rgb(var(--color-warning));
+}
+
+.highlight-label {
+  font-size: 0.75rem;
+  color: rgb(var(--text-muted));
+  margin-top: 0.25rem;
+}
+
+/* Animation for thinking indicator */
+@keyframes pulse {
+  0% {
+    opacity: 0.5;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.5;
+  }
+}
+
+.thinking-indicator {
+  position: relative;
+  display: flex;
+  align-items: center;
+  animation: pulse 2s infinite ease-in-out;
+}
+
+.thinking-indicator::before {
+  content: '';
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid currentColor;
+  border-right-color: transparent;
+  margin-right: 6px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Animation pour mettre en évidence les changements de message dans le chat - simplifiée */
+@keyframes pulse-highlight {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.5);
+  }
+
+  50% {
+    box-shadow: 0 0 0 5px rgba(255, 255, 255, 0);
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+  }
+}
+
+.animate-pulse-highlight {
+  animation: pulse-highlight 1s ease-out;
+  /* Réduit la durée et appliqué une seule fois */
+}
+
+.thinking-blue {
+  background: rgba(37, 99, 235, 0.4);
+  box-shadow: 0 0 8px rgba(37, 99, 235, 0.6);
+}
+
+.thinking-red {
+  background: rgba(220, 38, 38, 0.4);
+  box-shadow: 0 0 8px rgba(220, 38, 38, 0.6);
+}
+
+/* Pokemon Stadium Homepage Styles */
+.ai-selector-button {
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.ai-selector-button:hover {
+  box-shadow: 0 7px 14px rgba(0, 0, 0, 0.12), 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+.ai-selector-button:active {
+  /* No transform needed */
+}
+
+/* Enhanced Button Styles - Redesigned */
+.button-primary {
+  font-weight: 600;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  letter-spacing: 0.5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  height: auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-primary:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+  transform: translateY(-1px);
+}
+
+.button-primary:active {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+  transform: translateY(0);
+}
+
+.button-primary:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+
+/* Enhanced Player Badge Styles */
+.player-badge {
+  padding: 8px 16px;
+  font-weight: 700;
+  border-radius: 20px;
+  display: inline-flex;
+  align-items: center;
+  font-size: 1rem;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.player-badge-blue {
+  background: linear-gradient(to right, rgb(37, 99, 235), rgb(29, 78, 216));
+  border: 2px solid rgb(30, 64, 175);
+}
+
+.player-badge-red {
+  background: linear-gradient(to right, rgb(220, 38, 38), rgb(185, 28, 28));
+  border: 2px solid rgb(153, 27, 27);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .button-primary {
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 1rem;
+  }
+
+}
+
+/* Custom scrollbar styles */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(30, 41, 59, 0.4);
+  border-radius: 20px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(100, 116, 139, 0.6);
+  border-radius: 20px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(100, 116, 139, 0.8);
+}
+
+/* Animation for message overlay bubbles */
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  5% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  95% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+}
+
+.animate-fadeInOut {
+  animation: fadeInOut 5s ease-in-out forwards;
+}
+
+.message-bubble {
+  filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.3));
+  max-width: 100%;
+}
+
+.message-bubble p {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+}
+
+.blue-message {
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.red-message {
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* Battle Format Buttons */
+.battle-format-button {
+  color: white;
+  border: 2px solid transparent;
+  min-height: 130px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.battle-format-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.battle-format-button:hover {
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.battle-format-button:hover::before {
+  opacity: 1;
+}
+
+.battle-format-button:active {
+  /* No transform needed */
+}
+
+/* Animations pour les points d'interrogation autour de Psychokwak */
+@keyframes question-spin-1 {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  25% {
+    transform: translate(-10px, 10px);
+  }
+
+  50% {
+    transform: translate(-15px, 0);
+  }
+
+  75% {
+    transform: translate(-10px, -10px);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes question-spin-2 {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  25% {
+    transform: translate(10px, -5px);
+  }
+
+  50% {
+    transform: translate(15px, 0);
+  }
+
+  75% {
+    transform: translate(10px, 5px);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes question-spin-3 {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  25% {
+    transform: translate(5px, 10px);
+  }
+
+  50% {
+    transform: translate(0, 15px);
+  }
+
+  75% {
+    transform: translate(-5px, 10px);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.animate-question-spin-1 {
+  animation: question-spin-1 3s infinite ease-in-out;
+}
+
+.animate-question-spin-2 {
+  animation: question-spin-2 3s infinite ease-in-out;
+  animation-delay: 0.5s;
+}
+
+.animate-question-spin-3 {
+  animation: question-spin-3 3s infinite ease-in-out;
+  animation-delay: 1s;
+}
+
+/* Animations for buttons and titles */
+@keyframes gradient-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Responsive adjustments for battle format */
+@media (max-width: 768px) {
+  .battle-format-button {
+    min-height: 100px;
+    padding: 12px;
+  }
+}
+
+/* Stats counter styling */
+.stat-counter {
+  display: block;
+  margin-top: 0.25rem;
+}
+
+/* Stepper styling - Completely redesigned */
+.stepper-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+  padding: 0 0.5rem;
+}
+
+.stepper-container::before {
+  content: "";
+  position: absolute;
+  top: 16px;
+  left: 24px;
+  right: 24px;
+  height: 2px;
+  background-color: rgba(30, 41, 59, 0.6);
+  z-index: 1;
+}
+
+.stepper-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  flex: 1;
+  max-width: 100px;
+}
+
+.stepper-circle {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 6px;
+  background-color: rgba(30, 41, 59, 0.8);
+  color: #94a3b8;
+  transition: all 0.3s ease;
+  font-size: 0.875rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.stepper-circle.active {
+  background-color: #3b82f6;
+  color: white;
+  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.2);
+}
+
+.stepper-circle.completed {
+  background-color: #22c55e;
+  color: white;
+}
+
+.stepper-label {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #94a3b8;
+  transition: color 0.3s ease;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.stepper-label.active {
+  color: #60a5fa;
+}
+
+.stepper-progress {
+  position: absolute;
+  top: 16px;
+  left: 24px;
+  height: 2px;
+  background-color: #3b82f6;
+  z-index: 1;
+  transition: width 0.3s ease;
+}
+
+/* Tournament bracket styling - Redesigned */
+.tournament-container {
+  background: rgba(15, 23, 42, 0.6);
+  border: 1px solid rgba(59, 130, 246, 0.2);
+  border-radius: 0.75rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  padding: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.tournament-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.25rem;
+  border-bottom: 1px solid rgba(59, 130, 246, 0.2);
+  padding-bottom: 0.75rem;
+}
+
+.tournament-stat-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.tournament-stat-card {
+  background: rgba(30, 41, 59, 0.7);
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tournament-stat-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.tournament-stat-label {
+  display: block;
+  font-size: 0.75rem;
+  color: #94a3b8;
+  margin-bottom: 0.25rem;
+}
+
+.tournament-stat-value {
+  display: block;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+/* Bracket components - Refined */
+.bracket-section {
+  margin-bottom: 1.5rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.bracket-winners {
+  border: 1px solid rgba(59, 130, 246, 0.3);
+  background: rgba(30, 58, 138, 0.1);
+}
+
+.bracket-losers {
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  background: rgba(153, 27, 27, 0.1);
+}
+
+.bracket-finals {
+  border: 1px solid rgba(234, 179, 8, 0.3);
+  background: rgba(161, 98, 7, 0.1);
+}
+
+.bracket-header {
+  padding: 0.625rem 0.875rem;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.bracket-content {
+  padding: 0.875rem;
+  overflow-x: auto;
+}
+
+.bracket-rounds {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.bracket-round {
+  min-width: 220px;
+}
+
+.bracket-round-title {
+  text-align: center;
+  margin-bottom: 0.75rem;
+  font-weight: 500;
+  padding: 0.375rem;
+  border-radius: 0.25rem;
+  background: rgba(30, 41, 59, 0.5);
+  font-size: 0.75rem;
+}
+
+.bracket-matches {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.bracket-match {
+  background: rgba(30, 41, 59, 0.5);
+  border-radius: 0.375rem;
+  padding: 0.625rem;
+  position: relative;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bracket-match:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.bracket-match-id {
+  position: absolute;
+  top: -0.5rem;
+  left: 0.5rem;
+  background: rgba(15, 23, 42, 0.9);
+  border-radius: 0.25rem;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.bracket-player {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  margin-bottom: 0.25rem;
+  background: rgba(15, 23, 42, 0.5);
+}
+
+.bracket-player-blue {
+  border-left: 3px solid #3b82f6;
+}
+
+.bracket-player-red {
+  border-left: 3px solid #ef4444;
+}
+
+.bracket-connector {
+  height: 2rem;
+  position: relative;
+}
+
+.bracket-connector::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 50%;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  border-right: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.bracket-connector::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Styles minimaux pour le drag & drop */
+.sortable-item {
+  user-select: none;
+}
+
+.sortable-item:hover {
+  cursor: grab;
+}
+
+.sortable-item:active {
+  cursor: grabbing;
+}
+
+/* Background styling with gradient overlay */
+.app-background {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.app-background::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.7) 50%,
+      rgba(0, 0, 0, 1) 100%);
+  pointer-events: none;
+}
+
+
+.pokemon-type-badge {
+  font-size: 8px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+/* .team-container {
+  height: 250px;
+} */
+
+.type-badge-normal {
+  background-color: #5c5c5c;
+}
+
+.type-badge-fighting {
+  background-color: #dd541d;
+}
+
+.type-badge-flying {
+  background-color: #586cbd;
+}
+
+.type-badge-poison {
+  background-color: #5a13a2;
+}
+
+.type-badge-ground {
+  background-color: #46342f;
+}
+
+.type-badge-rock {
+  background-color: #8f5a3d;
+} 
+
+.type-badge-bug {
+  background-color: #5e6729;
+}
+
+.type-badge-ghost {
+  background-color: #441f4d;
+}
+
+.type-badge-steel {
+  background-color: #5f779f;
+}
+
+.type-badge-fire {
+  background-color: #bf2424;
+} 
+
+.type-badge-water {
+  background-color: #244cf2;
+}
+
+.type-badge-grass {
+  background-color: #329450;
+}
+
+.type-badge-electric {
+  background-color: #ffa600;
+}
+
+.type-badge-psychic {
+  background-color: #7f2468;
+}
+
+.type-badge-ice {
+  background-color: #0095c4;
+}
+
+.type-badge-dragon {
+  background-color: #3d198b;
+}
+
+.type-badge-dark {
+  background-color: #1e1b20;
+}
+
+.type-badge-fairy {
+  background-color: #d58bd2;
+}

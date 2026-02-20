@@ -1,0 +1,292 @@
+{
+    "anthropic/claude-opus-4-6": {
+        "name": "Claude Opus 4.6",
+        "shortName": "Opus 4.6",
+        "chatTeam": "Anthropic",
+        "chatUsername": "Anthropic",
+        "maxTokens": 200000,
+        "structuredOutput": true,
+        "reasoningModel": true,
+        "reasoningLevels": [
+            "low",
+            "medium",
+            "high",
+            "max"
+        ]
+    },
+    "anthropic/claude-sonnet-4-6": {
+        "name": "Claude Sonnet 4.6",
+        "shortName": "Sonnet 4.6",
+        "chatTeam": "Anthropic",
+        "chatUsername": "Anthropic",
+        "maxTokens": 200000,
+        "structuredOutput": true,
+        "reasoningModel": true,
+        "reasoningLevels": [
+            "low",
+            "medium",
+            "high"
+        ]
+    },
+    "gemini/gemini-3-flash-preview": {
+        "name": "Gemini 3 Flash Preview",
+        "shortName": "Gemini 3 Flash",
+        "chatTeam": "Google",
+        "chatUsername": "Gemini 3 Flash",
+        "maxTokens": 128000,
+        "structuredOutput": false,
+        "reasoningModel": true,
+        "reasoningLevels": [
+            "minimal",
+            "low",
+            "medium",
+            "high"
+        ]
+    },
+    "gemini/gemini-3.1-pro-preview": {
+        "name": "Gemini 3.1 Pro Preview",
+        "shortName": "Gemini 3.1 Pro",
+        "chatTeam": "Google",
+        "chatUsername": "Gemini 3.1 Pro",
+        "maxTokens": 128000,
+        "structuredOutput": false,
+        "reasoningModel": true,
+        "reasoningLevels": [
+            "low",
+            "medium",
+            "high"
+        ]
+    },
+    "openai/gpt-4.1": {
+        "name": "GPT-4.1",
+        "shortName": "GPT4.1",
+        "chatTeam": "OpenAI",
+        "chatUsername": "GPT-4.1",
+        "maxTokens": 1000000,
+        "structuredOutput": true,
+        "temperature": 1
+    },
+    "openai/gpt-4.1-mini": {
+        "name": "GPT-4.1 Mini",
+        "shortName": "GPT4.1 Mini",
+        "chatTeam": "OpenAI",
+        "chatUsername": "GPT-4.1 Mini",
+        "maxTokens": 1000000,
+        "structuredOutput": true,
+        "temperature": 1
+    },
+    "openai/gpt-4.1-nano": {
+        "name": "GPT-4.1 Nano",
+        "shortName": "GPT4.1 Nano",
+        "chatTeam": "OpenAI",
+        "chatUsername": "GPT-4.1 Nano",
+        "maxTokens": 1000000,
+        "structuredOutput": true,
+        "temperature": 1
+    },
+    "openai/gpt-4o": {
+        "name": "GPT-4o",
+        "shortName": "GPT4o",
+        "chatTeam": "OpenAI",
+        "chatUsername": "GPT-4o",
+        "maxTokens": 128000,
+        "structuredOutput": true,
+        "temperature": 1
+    },
+    "openai/gpt-4o-mini": {
+        "name": "GPT-4o Mini",
+        "shortName": "GPT4o Mini",
+        "chatTeam": "OpenAI",
+        "chatUsername": "GPT-4o Mini",
+        "maxTokens": 128000,
+        "structuredOutput": true,
+        "temperature": 1
+    },
+    "openai/gpt-5": {
+        "name": "GPT-5",
+        "shortName": "GPT5",
+        "chatTeam": "OpenAI",
+        "chatUsername": "GPT-5",
+        "maxTokens": 1000000,
+        "structuredOutput": true,
+        "reasoningModel": true,
+        "reasoningLevels": [
+            "minimal",
+            "low",
+            "medium",
+            "high"
+        ],
+        "temperature": 1
+    },
+    "openai/gpt-5-chat-latest": {
+        "name": "GPT-5 Chat Latest",
+        "shortName": "GPT5 Chat Latest",
+        "chatTeam": "OpenAI",
+        "chatUsername": "GPT-5 Chat",
+        "maxTokens": 1000000,
+        "structuredOutput": true,
+        "reasoningModel": false,
+        "temperature": 1
+    },
+    "openai/gpt-5-codex": {
+        "name": "GPT-5 Codex",
+        "shortName": "GPT5 Codex",
+        "chatTeam": "OpenAI",
+        "chatUsername": "GPT-5 Codex",
+        "maxTokens": 1000000,
+        "structuredOutput": true,
+        "reasoningModel": true,
+        "temperature": 1,
+        "reasoningLevels": [
+            "low",
+            "medium",
+            "high"
+        ]
+    },
+    "openai/gpt-5-mini": {
+        "name": "GPT-5 Mini",
+        "shortName": "GPT5 Mini",
+        "chatTeam": "OpenAI",
+        "chatUsername": "GPT-5 Mini",
+        "maxTokens": 1000000,
+        "structuredOutput": true,
+        "reasoningModel": true,
+        "reasoningLevels": [
+            "minimal",
+            "low",
+            "medium",
+            "high"
+        ],
+        "temperature": 1
+    },
+    "openai/gpt-5-nano": {
+        "name": "GPT-5 Nano",
+        "shortName": "GPT5 Nano",
+        "chatTeam": "OpenAI",
+        "chatUsername": "GPT-5 Nano",
+        "maxTokens": 1000000,
+        "structuredOutput": true,
+        "reasoningModel": true,
+        "reasoningLevels": [
+            "minimal",
+            "low",
+            "medium",
+            "high"
+        ],
+        "temperature": 1
+    },
+    "openai/gpt-5.1": {
+        "name": "GPT-5.1",
+        "shortName": "GPT5.1",
+        "chatTeam": "OpenAI",
+        "chatUsername": "GPT-5.1",
+        "maxTokens": 1000000,
+        "structuredOutput": true,
+        "reasoningModel": true,
+        "temperature": 1,
+        "reasoningLevels": [
+            "low",
+            "medium",
+            "high"
+        ]
+    },
+    "openai/gpt-5.1-chat-latest": {
+        "name": "GPT-5.1 Chat Latest",
+        "shortName": "GPT5.1 Chat Latest",
+        "chatTeam": "OpenAI",
+        "chatUsername": "GPT-5.1 Chat",
+        "maxTokens": 1000000,
+        "structuredOutput": true,
+        "reasoningModel": false,
+        "temperature": 1
+    },
+    "openai/gpt-5.1-codex": {
+        "name": "GPT-5.1 Codex",
+        "shortName": "GPT5.1 Codex",
+        "chatTeam": "OpenAI",
+        "chatUsername": "GPT-5.1 Codex",
+        "maxTokens": 1000000,
+        "structuredOutput": true,
+        "reasoningModel": true,
+        "temperature": 1,
+        "reasoningLevels": [
+            "low",
+            "medium",
+            "high"
+        ]
+    },
+    "openai/gpt-5.1-codex-max": {
+        "name": "GPT-5.1 Codex Max",
+        "shortName": "GPT5.1 Codex Max",
+        "chatTeam": "OpenAI",
+        "chatUsername": "GPT-5.1 Codex Max",
+        "maxTokens": 1000000,
+        "structuredOutput": true,
+        "reasoningModel": true,
+        "reasoningLevels": [
+            "low",
+            "medium",
+            "high",
+            "xhigh"
+        ],
+        "temperature": 1
+    },
+    "openai/gpt-5.1-codex-mini": {
+        "name": "GPT-5.1 Codex Mini",
+        "shortName": "GPT5.1 Codex Mini",
+        "chatTeam": "OpenAI",
+        "chatUsername": "GPT-5.1 Codex Mini",
+        "maxTokens": 1000000,
+        "structuredOutput": true,
+        "reasoningModel": true,
+        "temperature": 1,
+        "reasoningLevels": [
+            "low",
+            "medium",
+            "high"
+        ]
+    },
+    "openai/gpt-5.2": {
+        "name": "GPT-5.2",
+        "shortName": "GPT5.2",
+        "chatTeam": "OpenAI",
+        "chatUsername": "GPT-5.2",
+        "maxTokens": 1000000,
+        "structuredOutput": true,
+        "reasoningModel": true,
+        "reasoningLevels": [
+            "none",
+            "low",
+            "medium",
+            "high",
+            "xhigh"
+        ],
+        "temperature": 1
+    },
+    "openai/gpt-5.2-chat-latest": {
+        "name": "GPT-5.2 Chat Latest",
+        "shortName": "GPT5.2 Chat Latest",
+        "chatTeam": "OpenAI",
+        "chatUsername": "GPT-5.2 Chat",
+        "maxTokens": 1000000,
+        "structuredOutput": true,
+        "reasoningModel": false,
+        "temperature": 1
+    },
+    "openai/gpt-5.2-codex": {
+        "name": "GPT-5.2 Codex",
+        "shortName": "GPT5.2 Codex",
+        "chatTeam": "OpenAI",
+        "chatUsername": "GPT-5.2 Codex",
+        "maxTokens": 1000000,
+        "structuredOutput": true,
+        "reasoningModel": true,
+        "reasoningLevels": [
+            "low",
+            "medium",
+            "high",
+            "xhigh"
+        ],
+        "temperature": 1
+    }
+}

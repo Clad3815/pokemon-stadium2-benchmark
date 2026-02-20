@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Pokemon GB';
+  src: url('https://cdn.jsdelivr.net/npm/pokemon-font@1.8.1/fonts/pokemon-font.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/npm/pokemon-font@1.8.1/fonts/pokemon-font.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+} 
+
+@font-face {
+  font-family: 'AGoblinAppears';
+  src: url('../assets/AGoblinAppears-o2aV.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
